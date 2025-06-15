@@ -1,14 +1,14 @@
 {
-  "id": "ua2025-thepsion",
-  "title": "UA2025-ThePsion",
+  "id": "ua2025-the-psion",
+  "title": "UA2025: The Psion",
   "description": "A Foundry implementation of the UA2025-ThePsion document released on D&DBeyond",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
   },
   "esmodules": [
-    "scripts/ua2025-thepsion.js"
+    "scripts/ua2025-the-psion.js"
   ],
   "relationships": {
     "requires": [
@@ -33,7 +33,19 @@
       "flags": {}
     }
   ],
-  "packs": [
+  "packs": [    
+    {
+      "name": "content",
+      "label": "Psion UA Document",
+      "path": "packs/content",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
     {
       "name": "classes",
       "label": "Character Classes",
@@ -112,13 +124,26 @@
     }
   ],
   "system": "dnd5e",
-  "flags": {},
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "UA2025-ThePsion": "SOURCE.UA.2025.THEPSION"
+      },
+      "spellLists": [
+        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.vXHK4WdDQJJl0e9i",
+        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.7d7E2KgEhx5IN9Ox",
+        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.brgT1ikfVvidcu2e",
+        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.gawcl4POj0OqtkP8",
+        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.NVLCcwVALYGdKeLz",
+        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.eXDhyUEVWPc3jWPl"
+      ]
+    }
+  },
 	"readme": "https://github.com/henry-malinowski/ua2025-the-psion/master/Readme.md",
 	"bugs": "https://github.com/henry-malinowski/ua2025-the-psion/-/issues",
 	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/master/Changelog.md",
 	"url": "https://github.com/henry-malinowski/ua2025-the-psion",
-	"manifest": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.0/module.json",
-	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.0/ua2025-the-psion-v1.0.0.zip"
+	"manifest": "https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/module.json",
+	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.1/ua2025-the-psion.zip"
 }
-
       
