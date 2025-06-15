@@ -1,3 +1,5 @@
-2025/06/15-14:55:24.108 9174 Recovering log #83
-2025/06/15-14:55:24.111 9174 Delete type=0 #83
-2025/06/15-14:55:24.111 9174 Delete type=3 #81
+2025/06/15-16:30:25.030 adb4 Recovering log #87
+2025/06/15-16:30:25.030 adb4 Level-0 table #89: started
+2025/06/15-16:30:25.032 adb4 Level-0 table #89: 162319 bytes OK
+2025/06/15-16:30:25.034 adb4 Delete type=0 #87
+2025/06/15-16:30:25.035 adb4 Delete type=3 #86
