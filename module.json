@@ -1,0 +1,124 @@
+{
+  "id": "ua2025-thepsion",
+  "title": "UA2025-ThePsion",
+  "description": "A Foundry implementation of the UA2025-ThePsion document released on D&DBeyond",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/ua2025-thepsion.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Henry Malinowski",
+      "discord": "hmalinowski",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Character Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "origins",
+      "label": "Character Origins",
+      "path": "packs/origins",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "UA2025-ThePsion",
+      "color": "#6d3eb3",
+      "sorting": "m",
+      "packs": [
+        "content",
+        "classes",
+        "origins",
+        "feats",
+        "spells",
+        "actors"
+      ],
+      "folders": []
+    }
+  ],
+  "system": "dnd5e",
+  "flags": {},
+	"readme": "https://github.com/henry-malinowski/ua2025-the-psion/master/Readme.md",
+	"bugs": "https://github.com/henry-malinowski/ua2025-the-psion/-/issues",
+	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/master/Changelog.md",
+	"url": "https://github.com/henry-malinowski/ua2025-the-psion",
+	"manifest": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.0/module.json",
+	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.0/ua2025-the-psion-v1.0.0.zip"
+}
+
+      
