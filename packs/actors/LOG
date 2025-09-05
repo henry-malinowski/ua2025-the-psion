@@ -1,3 +1,8 @@
-2025/06/15-16:30:25.053 adb4 Recovering log #82
-2025/06/15-16:30:25.055 adb4 Delete type=0 #82
-2025/06/15-16:30:25.055 adb4 Delete type=3 #81
+2025/09/05-12:04:18.863 c358 Recovering log #99
+2025/09/05-12:04:18.865 c358 Delete type=0 #99
+2025/09/05-12:04:18.865 c358 Delete type=3 #97
+2025/09/05-12:05:58.362 af0c Level-0 table #104: started
+2025/09/05-12:05:58.362 af0c Level-0 table #104: 0 bytes OK
+2025/09/05-12:05:58.363 af0c Delete type=0 #102
+2025/09/05-12:05:58.365 af0c Manual compaction at level-0 from '!actors!IvJSXZ1L0c0cUbIY' @ 72057594037927935 : 1 .. '!folders!fIWxsZl4BR66yVIm' @ 0 : 0; will stop at (end)
+2025/09/05-12:05:58.365 af0c Manual compaction at level-1 from '!actors!IvJSXZ1L0c0cUbIY' @ 72057594037927935 : 1 .. '!folders!fIWxsZl4BR66yVIm' @ 0 : 0; will stop at (end)

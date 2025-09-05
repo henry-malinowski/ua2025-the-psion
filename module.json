@@ -2,7 +2,7 @@
   "id": "ua2025-the-psion",
   "title": "UA2025: The Psion",
   "description": "A Foundry implementation of the UA2025-ThePsion document released on D&DBeyond",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -39,6 +39,7 @@
       "label": "Psion UA Document",
       "path": "packs/content",
       "type": "JournalEntry",
+      "banner": "modules/ua2025-the-psion/assets/compendium/banner-01.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -51,6 +52,7 @@
       "label": "Character Classes",
       "path": "packs/classes",
       "type": "Item",
+      "banner": "modules/ua2025-the-psion/assets/compendium/banner-02.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -63,6 +65,7 @@
       "label": "Character Origins",
       "path": "packs/origins",
       "type": "Item",
+      "banner": "modules/ua2025-the-psion/assets/compendium/banner-03.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -75,6 +78,7 @@
       "label": "Feats",
       "path": "packs/feats",
       "type": "Item",
+      "banner": "modules/ua2025-the-psion/assets/compendium/banner-04.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -87,6 +91,7 @@
       "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
+      "banner": "modules/ua2025-the-psion/assets/compendium/banner-05.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -99,6 +104,7 @@
       "label": "Actors",
       "path": "packs/actors",
       "type": "Actor",
+      "banner": "modules/ua2025-the-psion/assets/compendium/banner-06.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -144,6 +150,6 @@
 	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/master/Changelog.md",
 	"url": "https://github.com/henry-malinowski/ua2025-the-psion",
 	"manifest": "https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/module.json",
-	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.1/ua2025-the-psion.zip"
+	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.2/ua2025-the-psion.zip"
 }
       
