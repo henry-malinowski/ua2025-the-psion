@@ -14,7 +14,7 @@ A Foundry implementation of the UA2025-ThePsion document released on D&amp;DBeyo
 ## Journal View
 <img src="https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/github-assets/example_1.png">
 
-## Spelllist Integration
+## Spell list Integration
 <img src="https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/github-assets/example_2.png">
 
 ## Installation Instructions
