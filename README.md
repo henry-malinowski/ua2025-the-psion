@@ -9,7 +9,7 @@ A Foundry implementation of the UA2025-ThePsion document released on D&amp;DBeyo
 
 * Full class and subclass integration in the FoundryVTT compendium system. Including tracking of Psionic Energy and Psionic Disciplines.
 * New UA spells. Including scalable summons (Summon Astral Entity) and added of spells to existing class spelllists.
-* Wild Talent Feats and well as modified versions of backgrounds that accept Wild Talent feats.
+* Wild Talent Feats and well as modified versions of backgrounds that accept Wild Talent feats in place of origin feats as described in the UA document.
 
 ## Journal View
 <img src="https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/github-assets/example_1.png">
