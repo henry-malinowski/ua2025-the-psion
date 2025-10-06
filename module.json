@@ -7,6 +7,14 @@
     "minimum": "13",
     "verified": "13"
   },  
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/ua2025-the-psion/assets/art/psion_header.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
   "languages": [
     {
       "lang": "en",
