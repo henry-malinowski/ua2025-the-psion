@@ -1,8 +1,8 @@
-2025/09/05-11:44:49.629 154a4 Recovering log #96
-2025/09/05-11:44:49.631 154a4 Delete type=0 #96
-2025/09/05-11:44:49.631 154a4 Delete type=3 #95
-2025/09/05-12:03:31.537 af0c Level-0 table #100: started
-2025/09/05-12:03:31.537 af0c Level-0 table #100: 0 bytes OK
-2025/09/05-12:03:31.537 af0c Delete type=0 #98
-2025/09/05-12:03:31.540 af0c Manual compaction at level-0 from '!actors!IvJSXZ1L0c0cUbIY' @ 72057594037927935 : 1 .. '!folders!fIWxsZl4BR66yVIm' @ 0 : 0; will stop at (end)
-2025/09/05-12:03:31.540 af0c Manual compaction at level-1 from '!actors!IvJSXZ1L0c0cUbIY' @ 72057594037927935 : 1 .. '!folders!fIWxsZl4BR66yVIm' @ 0 : 0; will stop at (end)
+2025/10/06-14:30:20.958 f978 Recovering log #145
+2025/10/06-14:30:20.960 f978 Delete type=0 #145
+2025/10/06-14:30:20.960 f978 Delete type=3 #143
+2025/10/06-14:38:34.827 a108 Level-0 table #151: started
+2025/10/06-14:38:34.827 a108 Level-0 table #151: 0 bytes OK
+2025/10/06-14:38:34.827 a108 Delete type=0 #149
+2025/10/06-14:38:34.829 a108 Manual compaction at level-0 from '!actors!psionSpiritCryst' @ 72057594037927935 : 1 .. '!folders!fIWxsZl4BR66yVIm' @ 0 : 0; will stop at (end)
+2025/10/06-14:38:34.829 a108 Manual compaction at level-1 from '!actors!psionSpiritCryst' @ 72057594037927935 : 1 .. '!folders!fIWxsZl4BR66yVIm' @ 0 : 0; will stop at (end)

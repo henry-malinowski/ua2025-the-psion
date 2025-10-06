@@ -1,12 +1,19 @@
 {
   "id": "ua2025-the-psion",
   "title": "UA2025: The Psion",
-  "description": "A Foundry implementation of the UA2025-ThePsion document released on D&DBeyond",
-  "version": "1.0.2",
+  "description": "A Foundry implementation of the UA Psion documents released on D&DBeyond",
+  "version": "2.0.0",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13"
-  },
+  },  
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "esmodules": [
     "scripts/ua2025-the-psion.js"
   ],
@@ -22,7 +29,10 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "5.1.0",
+          "verified": "5.1.9"
+        }
       }
     ]
   },
@@ -97,7 +107,14 @@
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "dnd5e": {
+            "sorting": "m",
+            "types": [
+                "spell"
+            ]
+        }
+    }
     },
     {
       "name": "actors",
@@ -133,15 +150,21 @@
   "flags": {
     "dnd5e": {
       "sourceBooks": {
-        "UA2025-ThePsion": "SOURCE.UA.2025.THEPSION"
+        "UA2025-ThePsion": "SOURCE.UA.2025.THEPSION",
+        "UA2025-PsionUpdates": "SOURCE.UA.2025.PSIONUPDATES"
       },
       "spellLists": [
-        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.vXHK4WdDQJJl0e9i",
-        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.7d7E2KgEhx5IN9Ox",
-        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.brgT1ikfVvidcu2e",
-        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.gawcl4POj0OqtkP8",
-        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.NVLCcwVALYGdKeLz",
-        "Compendium.ua2025-the-psion.content.JournalEntry.73ZDBIXbxfX1x9qb.JournalEntryPage.eXDhyUEVWPc3jWPl"
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.vXHK4WdDQJJl0e9i",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.7d7E2KgEhx5IN9Ox",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.8U2Ipa2yPabwqBva",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.brgT1ikfVvidcu2e",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.gawcl4POj0OqtkP8",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.NVLCcwVALYGdKeLz",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.eXDhyUEVWPc3jWPl",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.lCrh2xQupgGVKcy5",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.rnVl1K4HTC88hQei",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.nti7O0hRbls3dqkO",
+        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.zRhuWZg5a2TDFynn"
       ]
     }
   },
@@ -150,6 +173,6 @@
 	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/master/Changelog.md",
 	"url": "https://github.com/henry-malinowski/ua2025-the-psion",
 	"manifest": "https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/module.json",
-	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v1.0.2/module.zip"
+	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v2.0.0/module.zip"
 }
       

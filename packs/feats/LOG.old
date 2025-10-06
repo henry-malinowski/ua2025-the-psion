@@ -1,8 +1,8 @@
-2025/09/05-11:44:49.618 10bc Recovering log #93
-2025/09/05-11:44:49.621 10bc Delete type=0 #93
-2025/09/05-11:44:49.621 10bc Delete type=3 #92
-2025/09/05-12:03:31.524 af0c Level-0 table #97: started
-2025/09/05-12:03:31.524 af0c Level-0 table #97: 0 bytes OK
-2025/09/05-12:03:31.525 af0c Delete type=0 #95
-2025/09/05-12:03:31.528 af0c Manual compaction at level-0 from '!folders!AsQW5rYkhzJGDsOK' @ 72057594037927935 : 1 .. '!items.effects!AhZzUy44svaOlSce.qW15gV5acL1xsQhZ' @ 0 : 0; will stop at (end)
-2025/09/05-12:03:31.530 af0c Manual compaction at level-1 from '!folders!AsQW5rYkhzJGDsOK' @ 72057594037927935 : 1 .. '!items.effects!AhZzUy44svaOlSce.qW15gV5acL1xsQhZ' @ 0 : 0; will stop at (end)
+2025/10/06-14:30:20.948 103d0 Recovering log #142
+2025/10/06-14:30:20.950 103d0 Delete type=0 #142
+2025/10/06-14:30:20.950 103d0 Delete type=3 #140
+2025/10/06-14:38:34.822 a108 Level-0 table #148: started
+2025/10/06-14:38:34.822 a108 Level-0 table #148: 0 bytes OK
+2025/10/06-14:38:34.823 a108 Delete type=0 #146
+2025/10/06-14:38:34.824 a108 Manual compaction at level-0 from '!folders!AsQW5rYkhzJGDsOK' @ 72057594037927935 : 1 .. '!items.effects!uapftPsykinetici.qW15gV5acL1xsQhZ' @ 0 : 0; will stop at (end)
+2025/10/06-14:38:34.825 a108 Manual compaction at level-1 from '!folders!AsQW5rYkhzJGDsOK' @ 72057594037927935 : 1 .. '!items.effects!uapftPsykinetici.qW15gV5acL1xsQhZ' @ 0 : 0; will stop at (end)
