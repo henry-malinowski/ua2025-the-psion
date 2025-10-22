@@ -2,11 +2,18 @@
   "id": "ua2025-the-psion",
   "title": "UA2025: The Psion",
   "description": "A Foundry implementation of the UA Psion documents released on D&DBeyond",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
-  },  
+    "verified": "13.350"
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/ua2025-the-psion/assets/art/psion_header.jpg",
+      "loop": false
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -18,21 +25,21 @@
     "scripts/ua2025-the-psion.js"
   ],
   "relationships": {
-    "requires": [
-      {
-        "id": "dnd-players-handbook",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
     "systems": [
       {
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
           "minimum": "5.1.0",
-          "verified": "5.1.9"
+          "verified": "5.1.10"
         }
+      }
+    ],
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -146,7 +153,6 @@
       "folders": []
     }
   ],
-  "system": "dnd5e",
   "flags": {
     "dnd5e": {
       "sourceBooks": {
@@ -168,11 +174,11 @@
       ]
     }
   },
-	"readme": "https://github.com/henry-malinowski/ua2025-the-psion/master/Readme.md",
-	"bugs": "https://github.com/henry-malinowski/ua2025-the-psion/-/issues",
-	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/master/Changelog.md",
+	"readme": "https://github.com/henry-malinowski/ua2025-the-psion/blob/main/README.md",
+	"bugs": "https://github.com/henry-malinowski/ua2025-the-psion/issues",
+	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/blob/main/Changelog.md",
 	"url": "https://github.com/henry-malinowski/ua2025-the-psion",
 	"manifest": "https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/module.json",
-	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v2.0.0/module.zip"
+	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v2.0.1/module.zip"
 }
       

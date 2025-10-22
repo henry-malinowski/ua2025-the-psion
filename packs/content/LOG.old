@@ -1,15 +1,15 @@
-2025/10/06-14:30:20.933 e010 Recovering log #103
-2025/10/06-14:30:20.935 e010 Delete type=0 #103
-2025/10/06-14:30:20.935 e010 Delete type=3 #101
-2025/10/06-14:38:34.820 a108 Level-0 table #109: started
-2025/10/06-14:38:34.821 a108 Level-0 table #109: 3854 bytes OK
-2025/10/06-14:38:34.821 a108 Delete type=0 #107
-2025/10/06-14:38:34.824 a108 Manual compaction at level-0 from '!journal!uaPsionChangelog' @ 72057594037927935 : 1 .. '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn' @ 0 : 0; will stop at (end)
-2025/10/06-14:38:34.824 a108 Manual compaction at level-1 from '!journal!uaPsionChangelog' @ 72057594037927935 : 1 .. '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn' @ 0 : 0; will stop at '!journal.pages!uaPsionChangelog.MJslSZhhcM4L1at3' @ 1087 : 1
-2025/10/06-14:38:34.824 a108 Compacting 1@1 + 1@2 files
-2025/10/06-14:38:34.825 a108 Generated table #110@1: 23 keys, 12254 bytes
-2025/10/06-14:38:34.825 a108 Compacted 1@1 + 1@2 files => 12254 bytes
-2025/10/06-14:38:34.825 a108 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/10/06-14:38:34.825 a108 Delete type=2 #105
-2025/10/06-14:38:34.825 a108 Delete type=2 #109
-2025/10/06-14:38:34.826 a108 Manual compaction at level-1 from '!journal.pages!uaPsionChangelog.MJslSZhhcM4L1at3' @ 1087 : 1 .. '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn' @ 0 : 0; will stop at (end)
+2025/10/21-23:10:59.209 34cc Recovering log #140
+2025/10/21-23:10:59.211 34cc Delete type=0 #140
+2025/10/21-23:10:59.211 34cc Delete type=3 #139
+2025/10/21-23:25:53.320 affc Level-0 table #144: started
+2025/10/21-23:25:53.322 affc Level-0 table #144: 55612 bytes OK
+2025/10/21-23:25:53.322 affc Delete type=0 #142
+2025/10/21-23:25:53.322 affc Manual compaction at level-0 from '!journal!uaPsionChangelog' @ 72057594037927935 : 1 .. '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn' @ 0 : 0; will stop at (end)
+2025/10/21-23:25:53.325 affc Manual compaction at level-1 from '!journal!uaPsionChangelog' @ 72057594037927935 : 1 .. '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn' @ 0 : 0; will stop at '!journal.pages!uaPsionChangelog.MJslSZhhcM4L1at3' @ 1109 : 1
+2025/10/21-23:25:53.326 affc Compacting 1@1 + 1@2 files
+2025/10/21-23:25:53.327 affc Generated table #145@1: 24 keys, 13256 bytes
+2025/10/21-23:25:53.327 affc Compacted 1@1 + 1@2 files => 13256 bytes
+2025/10/21-23:25:53.327 affc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/21-23:25:53.327 affc Delete type=2 #126
+2025/10/21-23:25:53.327 affc Delete type=2 #144
+2025/10/21-23:25:53.330 affc Manual compaction at level-1 from '!journal.pages!uaPsionChangelog.MJslSZhhcM4L1at3' @ 1109 : 1 .. '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn' @ 0 : 0; will stop at (end)

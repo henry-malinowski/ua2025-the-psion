@@ -1,8 +1,8 @@
-2025/10/06-14:38:37.994 e010 Recovering log #148
-2025/10/06-14:38:37.996 e010 Delete type=0 #148
-2025/10/06-14:38:37.996 e010 Delete type=3 #146
-2025/10/06-14:46:31.031 a108 Level-0 table #153: started
-2025/10/06-14:46:31.031 a108 Level-0 table #153: 0 bytes OK
-2025/10/06-14:46:31.032 a108 Delete type=0 #151
-2025/10/06-14:46:31.034 a108 Manual compaction at level-0 from '!folders!1yeaplyHrO6wWUun' @ 72057594037927935 : 1 .. '!items.effects!uapsplThoughtFor.bMNeUIzRytvAh3Pk' @ 0 : 0; will stop at (end)
-2025/10/06-14:46:31.035 a108 Manual compaction at level-1 from '!folders!1yeaplyHrO6wWUun' @ 72057594037927935 : 1 .. '!items.effects!uapsplThoughtFor.bMNeUIzRytvAh3Pk' @ 0 : 0; will stop at (end)
+2025/10/21-23:26:20.261 34cc Recovering log #178
+2025/10/21-23:26:20.263 34cc Delete type=0 #178
+2025/10/21-23:26:20.263 34cc Delete type=3 #176
+2025/10/21-23:34:57.364 affc Level-0 table #184: started
+2025/10/21-23:34:57.364 affc Level-0 table #184: 0 bytes OK
+2025/10/21-23:34:57.364 affc Delete type=0 #182
+2025/10/21-23:34:57.365 affc Manual compaction at level-0 from '!folders!1yeaplyHrO6wWUun' @ 72057594037927935 : 1 .. '!items.effects!uapsplThoughtFor.bMNeUIzRytvAh3Pk' @ 0 : 0; will stop at (end)
+2025/10/21-23:34:57.365 affc Manual compaction at level-1 from '!folders!1yeaplyHrO6wWUun' @ 72057594037927935 : 1 .. '!items.effects!uapsplThoughtFor.bMNeUIzRytvAh3Pk' @ 0 : 0; will stop at (end)
