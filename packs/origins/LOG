@@ -1,8 +1,0 @@
-2025/10/21-23:26:20.252 5588 Recovering log #177
-2025/10/21-23:26:20.254 5588 Delete type=0 #177
-2025/10/21-23:26:20.254 5588 Delete type=3 #175
-2025/10/21-23:34:57.363 affc Level-0 table #182: started
-2025/10/21-23:34:57.363 affc Level-0 table #182: 0 bytes OK
-2025/10/21-23:34:57.363 affc Delete type=0 #180
-2025/10/21-23:34:57.365 affc Manual compaction at level-0 from '!folders!jF84K2ICLrz39onu' @ 72057594037927935 : 1 .. '!items!uapbgSagePsion00' @ 0 : 0; will stop at (end)
-2025/10/21-23:34:57.365 affc Manual compaction at level-1 from '!folders!jF84K2ICLrz39onu' @ 72057594037927935 : 1 .. '!items!uapbgSagePsion00' @ 0 : 0; will stop at (end)

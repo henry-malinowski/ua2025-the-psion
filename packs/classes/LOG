@@ -1,8 +1,0 @@
-2025/10/21-23:26:20.247 5b34 Recovering log #205
-2025/10/21-23:26:20.249 5b34 Delete type=0 #205
-2025/10/21-23:26:20.249 5b34 Delete type=3 #203
-2025/10/21-23:34:57.358 affc Level-0 table #211: started
-2025/10/21-23:34:57.358 affc Level-0 table #211: 0 bytes OK
-2025/10/21-23:34:57.359 affc Delete type=0 #209
-2025/10/21-23:34:57.361 affc Manual compaction at level-0 from '!folders!1lKRwmeYWXNoMbc4' @ 72057594037927935 : 1 .. '!items.effects!psionTranceDestr.eMXH7g624vb4D5g6' @ 0 : 0; will stop at (end)
-2025/10/21-23:34:57.361 affc Manual compaction at level-1 from '!folders!1lKRwmeYWXNoMbc4' @ 72057594037927935 : 1 .. '!items.effects!psionTranceDestr.eMXH7g624vb4D5g6' @ 0 : 0; will stop at (end)

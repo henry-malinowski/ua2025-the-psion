@@ -1,8 +1,0 @@
-2025/10/21-23:26:20.256 8464 Recovering log #177
-2025/10/21-23:26:20.258 8464 Delete type=0 #177
-2025/10/21-23:26:20.258 8464 Delete type=3 #175
-2025/10/21-23:34:57.357 affc Level-0 table #182: started
-2025/10/21-23:34:57.357 affc Level-0 table #182: 0 bytes OK
-2025/10/21-23:34:57.358 affc Delete type=0 #180
-2025/10/21-23:34:57.361 affc Manual compaction at level-0 from '!folders!AsQW5rYkhzJGDsOK' @ 72057594037927935 : 1 .. '!items.effects!uapftPsykinetici.qW15gV5acL1xsQhZ' @ 0 : 0; will stop at (end)
-2025/10/21-23:34:57.361 affc Manual compaction at level-1 from '!folders!AsQW5rYkhzJGDsOK' @ 72057594037927935 : 1 .. '!items.effects!uapftPsykinetici.qW15gV5acL1xsQhZ' @ 0 : 0; will stop at (end)
