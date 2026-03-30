@@ -22,7 +22,7 @@
     }
   ],
   "esmodules": [
-    "scripts/ua2025-the-psion.js"
+    "scripts/ua2025-the-psion.mjs"
   ],
   "relationships": {
     "systems": [
