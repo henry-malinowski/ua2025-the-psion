@@ -1,184 +1,174 @@
 {
-  "id": "ua2025-the-psion",
-  "title": "UA2025: The Psion",
-  "description": "A Foundry implementation of the UA Psion documents released on D&DBeyond",
-  "version": "2.0.1",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13.350"
-  },
-  "media": [
-    {
-      "type": "setup",
-      "url": "modules/ua2025-the-psion/assets/art/psion_header.jpg",
-      "loop": false
-    }
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
-  "esmodules": [
-    "scripts/ua2025-the-psion.mjs"
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "5.1.0",
-          "verified": "5.1.10"
-        }
-      }
-    ],
-    "requires": [
-      {
-        "id": "dnd-players-handbook",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Henry Malinowski",
-      "discord": "hmalinowski",
-      "flags": {}
-    }
-  ],
-  "packs": [    
-    {
-      "name": "content",
-      "label": "Psion UA Document",
-      "path": "packs/content",
-      "type": "JournalEntry",
-      "banner": "modules/ua2025-the-psion/assets/compendium/banner-01.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "classes",
-      "label": "Character Classes",
-      "path": "packs/classes",
-      "type": "Item",
-      "banner": "modules/ua2025-the-psion/assets/compendium/banner-02.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "origins",
-      "label": "Character Origins",
-      "path": "packs/origins",
-      "type": "Item",
-      "banner": "modules/ua2025-the-psion/assets/compendium/banner-03.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "feats",
-      "label": "Feats",
-      "path": "packs/feats",
-      "type": "Item",
-      "banner": "modules/ua2025-the-psion/assets/compendium/banner-04.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "spells",
-      "label": "Spells",
-      "path": "packs/spells",
-      "type": "Item",
-      "banner": "modules/ua2025-the-psion/assets/compendium/banner-05.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {
-        "dnd5e": {
-            "sorting": "m",
-            "types": [
-                "spell"
-            ]
-        }
-    }
-    },
-    {
-      "name": "actors",
-      "label": "Actors",
-      "path": "packs/actors",
-      "type": "Actor",
-      "banner": "modules/ua2025-the-psion/assets/compendium/banner-06.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "UA2025-ThePsion",
-      "color": "#6d3eb3",
-      "sorting": "m",
-      "packs": [
-        "content",
-        "classes",
-        "origins",
-        "feats",
-        "spells",
-        "actors"
-      ],
-      "folders": []
-    }
-  ],
-  "flags": {
-    "dnd5e": {
-      "sourceBooks": {
-        "UA2025-ThePsion": "SOURCE.UA.2025.THEPSION",
-        "UA2025-PsionUpdates": "SOURCE.UA.2025.PSIONUPDATES"
-      },
-      "spellLists": [
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.vXHK4WdDQJJl0e9i",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.7d7E2KgEhx5IN9Ox",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.8U2Ipa2yPabwqBva",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.brgT1ikfVvidcu2e",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.gawcl4POj0OqtkP8",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.NVLCcwVALYGdKeLz",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.eXDhyUEVWPc3jWPl",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.lCrh2xQupgGVKcy5",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.rnVl1K4HTC88hQei",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.nti7O0hRbls3dqkO",
-        "Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.zRhuWZg5a2TDFynn"
-      ]
-    }
-  },
-	"readme": "https://github.com/henry-malinowski/ua2025-the-psion/blob/main/README.md",
+	"id": "ua2025-the-psion",
+	"title": "UA2025: The Psion",
+	"description": "A Foundry implementation of the UA Psion documents released on D&DBeyond",
+	"version": "2.1.0",
+	"compatibility": {
+		"minimum": "13.347",
+		"verified": "13"
+	},
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/ua2025-the-psion/assets/art/psion_header.jpg",
+			"loop": false
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"esmodules": ["scripts/ua2025-the-psion.mjs"],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "5.2.0",
+					"verified": "5.2.5"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "dnd-players-handbook",
+				"type": "module",
+				"compatibility": {
+					"verified": "2.1.0"
+				}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "Henry Malinowski",
+			"discord": "hmalinowski",
+			"url": "https://github.com/henry-malinowski"
+		}
+	],
+	"packs": [
+		{
+			"name": "content",
+			"label": "Psion UA Document",
+			"path": "packs/content",
+			"type": "JournalEntry",
+			"banner": "modules/ua2025-the-psion/assets/compendium/banner-01.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "classes",
+			"label": "Character Classes",
+			"path": "packs/classes",
+			"type": "Item",
+			"banner": "modules/ua2025-the-psion/assets/compendium/banner-02.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "origins",
+			"label": "Character Origins",
+			"path": "packs/origins",
+			"type": "Item",
+			"banner": "modules/ua2025-the-psion/assets/compendium/banner-03.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "feats",
+			"label": "Feats",
+			"path": "packs/feats",
+			"type": "Item",
+			"banner": "modules/ua2025-the-psion/assets/compendium/banner-04.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "spells",
+			"label": "Spells",
+			"path": "packs/spells",
+			"type": "Item",
+			"banner": "modules/ua2025-the-psion/assets/compendium/banner-05.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"sorting": "m",
+					"types": ["spell"]
+				}
+			}
+		},
+		{
+			"name": "actors",
+			"label": "Actors",
+			"path": "packs/actors",
+			"type": "Actor",
+			"banner": "modules/ua2025-the-psion/assets/compendium/banner-06.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "UA2025-ThePsion",
+			"color": "#6d3eb3",
+			"sorting": "m",
+			"packs": ["content", "classes", "origins", "feats", "spells", "actors"],
+			"folders": []
+		}
+	],
+	"flags": {
+		"dnd5e": {
+			"sourceBooks": {
+				"UA2025-ThePsion": "SOURCE.UA.2025.THEPSION",
+				"UA2025-PsionUpdates": "SOURCE.UA.2025.PSIONUPDATES"
+			},
+			"spellLists": [
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.vXHK4WdDQJJl0e9i",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.7d7E2KgEhx5IN9Ox",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.8U2Ipa2yPabwqBva",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.brgT1ikfVvidcu2e",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.gawcl4POj0OqtkP8",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.NVLCcwVALYGdKeLz",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.eXDhyUEVWPc3jWPl",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.lCrh2xQupgGVKcy5",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.rnVl1K4HTC88hQei",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.nti7O0hRbls3dqkO",
+				"Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.zRhuWZg5a2TDFynn"
+			]
+		}
+	},
+	"readme": "https://github.com/henry-malinowski/ua2025-the-psion/#readme",
 	"bugs": "https://github.com/henry-malinowski/ua2025-the-psion/issues",
-	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/blob/main/Changelog.md",
-	"url": "https://github.com/henry-malinowski/ua2025-the-psion",
-	"manifest": "https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/refs/heads/main/module.json",
-	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/download/v2.0.1/module.zip"
+	"changelog": "https://github.com/henry-malinowski/ua2025-the-psion/blob/main/CHANGELOG.md",
+	"url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/",
+	"manifest": "https://github.com/henry-malinowski/ua2025-the-psion/releases/latest/download/module.json",
+	"download": "https://github.com/henry-malinowski/ua2025-the-psion/releases/latest/download/module.zip"
 }
-      
