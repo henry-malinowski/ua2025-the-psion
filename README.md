@@ -23,6 +23,6 @@ A Foundry implementation of the Psion Unearthed Arcana documents released on [D&
 
 To install and use the ua2025-the-psion module with Foundry Virtual Tabletop, simply paste the following URL into the **Install Module** dialog on the Setup menu of the application.
 
-`https://raw.githubusercontent.com/henry-malinowski/ua2025-the-psion/master/module.json`
+`https://github.com/henry-malinowski/ua2025-the-psion/releases/latest/download/module.json`
 
 If you wish to manually install the module, you must clone or extract it into the `Data/modules/ua2025-the-psion` folder. You may do this by cloning the repository or downloading a zip archive from the [Releases Page](https://github.com/henry-malinowski/ua2025-the-psion/releases).
