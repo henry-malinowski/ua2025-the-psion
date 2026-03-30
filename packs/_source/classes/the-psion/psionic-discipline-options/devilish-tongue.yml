@@ -1,0 +1,106 @@
+folder: hCqZignhKT3tUzdF
+name: Devilish Tongue
+type: feat
+_id: psionDevilishTon
+img: icons/creatures/unholy/demon-female-succubus-orange.webp
+system:
+  activities:
+    Wt8YLxOlQ7zFG9Zd:
+      type: utility
+      _id: Wt8YLxOlQ7zFG9Zd
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you take the Influence action
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: true
+        visible: false
+        name: Influence Action Bonus
+        formula: '@scale.psion.die.die'
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you take the &amp;Reference[Influence] action, you can roll one
+      Psionic Energy Die and add the number rolled to the ability check. If this
+      causes you to succeed on the ability check, the die is
+      expended.</p><section class="secret"
+      id="secret-n5NPBzjVa7FofQ0X"><p><strong>Foundry Note</strong></p><p>If
+      after using this feature, your Influence action still fails, click the
+      Refund Resource button in the chat.</p></section>
+    chat: ''
+  identifier: devilish-tongue
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '4'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 2
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: psionicDiscipline
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679654645
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionDevilishTon'

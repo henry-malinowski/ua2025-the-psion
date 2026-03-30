@@ -1,0 +1,124 @@
+folder: XsuDY1LjR6gMAA5F
+name: Warp Space
+type: feat
+_id: psionWarpSpace00
+img: icons/magic/sonic/projectile-shock-wave-blue.webp
+system:
+  activities:
+    XDERbPH8HtStBc1Q:
+      type: cast
+      _id: XDERbPH8HtStBc1Q
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling:
+              mode: ''
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: 2
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShatter000
+        ability: ''
+      name: Modified Shatter
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Shatter},
+      you can expend one Psionic Energy Die to modify the spell so that the
+      radius of the spell’s Sphere becomes 20 feet.</p><p>In addition, creatures
+      that fail the saving throw against the spell are pulled straight toward
+      the center of the Sphere, ending in an unoccupied space as close to center
+      of the Sphere as possible.</p>
+    chat: ''
+  identifier: warp-space
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psi Warper
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759707107223
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionWarpSpace00'

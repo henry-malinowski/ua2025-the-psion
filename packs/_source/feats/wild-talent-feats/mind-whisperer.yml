@@ -1,0 +1,206 @@
+folder: AsQW5rYkhzJGDsOK
+name: Mind Whisperer
+type: feat
+_id: uapftMindWhisper
+img: icons/magic/control/fear-fright-monster-green.webp
+system:
+  activities:
+    d7eD0eSnaRSM02wQ:
+      type: utility
+      _id: d7eD0eSnaRSM02wQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: afpEtpktgVgqoQ3B
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          special: One of which is yourself
+          count: '2'
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Limited Telepathy
+      img: ''
+      appliedEffects:
+        - afpEtpktgVgqoQ3B
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Limited
+      Telepathy.</strong></em> As a Magic action, choose one creature you can
+      see within 120 feet of yourself. You form a telepathic connection to that
+      creature. For 1 hour, you and the chosen creature can communicate
+      telepathically with each other while within 120 feet of each other. To
+      understand each other, you each must mentally use a language the other
+      knows.</p><p>Once you use this benefit, you can’t do so again until you
+      finish a Short or Long Rest.</p><p><em><strong>Psionic
+      Talent.</strong></em> You know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{Mind
+      Sliver} cantrip. You also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Dissonant
+      Whispers} spell prepared. You can cast it once without a spell slot, and
+      you regain the ability to cast it in that way when you finish a Long Rest.
+      You can also cast it using any spell slots you have. When you cast these
+      spells, they require no Verbal or Material components, and Intelligence,
+      Wisdom, or Charisma is your spellcasting ability for them (choose when you
+      select this feat).</p>
+    chat: ''
+  identifier: wild-talent-feat-mind-whisperer
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '13'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      title: Psionic Talent (Cantrip)
+      _id: SRkzSnZ1zqtVAO9u
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Spell)
+      _id: xwzlDGK4NDBdh6MG
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Can’t Have Another Wild Talent Feat
+  type:
+    value: feat
+    subtype: wildTalentFeat
+effects:
+  - name: Limited Telepathy
+    img: icons/magic/control/fear-fright-monster-green.webp
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.1ZRBibaYoFV5iuji
+    transfer: false
+    _id: afpEtpktgVgqoQ3B
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: 600
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759776586096
+    _key: '!items.effects!uapftMindWhisper.afpEtpktgVgqoQ3B'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759775113370
+  modifiedTime: 1759776640899
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapftMindWhisper'

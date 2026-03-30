@@ -1,0 +1,186 @@
+folder: TVS9pXbKE0id5sRE
+name: Metamorph
+type: subclass
+_id: psionSubMetamorp
+img: modules/ua2025-the-psion/assets/icons/classes/psion-metamorph.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Psychically Sculpt Life and Flesh</p></blockquote><p>Your
+      mastery of psionic powers turns inward. Your own flesh becomes like clay
+      to you, and you mold it into the perfect vessel for your psionic powers.
+      Experience in manipulating your life energy also enables you to adjust the
+      life force of friends and foes.</p>
+    chat: ''
+  identifier: metamorph
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '7'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      _id: Pzp6dk2DmtzptPk7
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionMetamorphSp
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionOrganicWeap
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionMutableForm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 4Kl3PbX8vPk9Ekuv
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionMetaExtraAt
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionFleshWeaver
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: QRpmhEVwE9an057e
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionLifeBending
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 3BpuyonP5mYjgdtx
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionImprovedMut
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: Rm0MFceUUWD5LNn3
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Metamorph Spells
+      hint: ''
+    - type: ItemGrant
+      _id: 1Ib3dXLyIORhTA54
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAuraofVita
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Metamorph Spells
+      hint: ''
+    - type: ItemGrant
+      _id: h9udZPRQDhyCUKz4
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Metamorph Spells
+      hint: ''
+    - type: ItemGrant
+      _id: trHm0TSkWEP8tPyM
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Metamorph Spells
+      hint: ''
+  classIdentifier: psion
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679845947
+  modifiedTime: 1759705470695
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionSubMetamorp'

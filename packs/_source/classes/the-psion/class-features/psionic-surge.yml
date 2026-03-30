@@ -1,0 +1,102 @@
+folder: KWnFjJdpBGthKGPK
+name: Psionic Surge
+type: feat
+_id: psionSurge000000
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+system:
+  activities:
+    BYQmjGOYmhUO92nY:
+      type: utility
+      _id: BYQmjGOYmhUO92nY
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: After you roll one or more Psionic Energy Dice
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: smallest
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can push your psionic powers using your life force. After you roll
+      one or more Psionic Energy Dice, you can expend one of your Hit Point Dice
+      and treat any roll of 1, 2, or 3 on those Psionic Energy Dice as a 4.</p>
+    chat: ''
+  identifier: psion-psionic-surge
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '4'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 7
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psion
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759678539609
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionSurge000000'

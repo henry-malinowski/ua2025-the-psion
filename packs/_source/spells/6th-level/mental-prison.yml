@@ -1,0 +1,225 @@
+folder: QQL8XR5KOU1YRUOY
+name: Mental Prison
+type: spell
+_id: uapsplMentalPris
+img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+system:
+  activities:
+    SKRQiEenTyC17bJq:
+      type: save
+      _id: SKRQiEenTyC17bJq
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: wYfEP7iAqcKKlj0o
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+    KFRlEVgPxsGra8X7:
+      type: damage
+      name: Ending Damage
+      _id: KFRlEVgPxsGra8X7
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You attempt to bind a creature within an illusory cell that only it
+      perceives. One creature you can see within range must succeed on an
+      [[/save]]{Intelligence saving throw} or take [[/damage]] damage and have
+      the &amp;Reference[Charmed] condition for the duration. On a successful
+      save, the target takes half damage only and the spell ends.</p><p>While
+      Charmed, the target has the &amp;Reference[Restrained] condition and
+      perceives the area around its space as dangerous to it in some way you
+      create. You might cause the target to perceive itself as being surrounded
+      by fire, floating razors, or hideous maws filled with dripping teeth.
+      Whatever form the illusion takes, the target can’t see or hear anything
+      beyond it. If the target is moved from the illusion, makes a melee attack
+      through it, or reaches any part of its body through it, the target takes
+      [[/damage 5d10 Psychic]] damage and the spell ends.</p>
+    chat: ''
+  identifier: mental-prison
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '13'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 0
+  properties:
+    - somatic
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: ill
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: '1'
+      special: ''
+effects:
+  - name: Mental Prison
+    img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+    origin: Compendium.ua2025-the-psion.spells.Item.uapsplMentalPris
+    transfer: false
+    _id: wYfEP7iAqcKKlj0o
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - charmed
+      - restrained
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!uapsplMentalPris.wYfEP7iAqcKKlj0o'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769639868
+  modifiedTime: 1759775147477
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapsplMentalPris'

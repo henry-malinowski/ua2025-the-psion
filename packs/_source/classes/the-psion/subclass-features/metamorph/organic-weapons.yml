@@ -1,0 +1,111 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Organic Weapons
+type: feat
+_id: psionOrganicWeap
+img: icons/magic/death/undead-skeleton-lich-armor.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can shape your limbs into weapons. As a &amp;Reference[Magic]
+      action, you can reform your free hand into one of the following organic
+      weapons: Bone Blade, Flesh Maul, or Viscera Launcher. When you take the
+      &amp;Reference[Attack] action, you can use this feature before you make
+      the attack roll. Your limb retains the form of the organic weapon until
+      you take a Magic action to change it into another organic weapon, you have
+      the &amp;Reference[Unconscious apply=false] condition, or you return the
+      limb to its previous form (no action required).</p><p>Whenever you attack
+      with the weapon, you can use your Intelligence modifier for the attack and
+      damage rolls instead of using Strength or
+      Dexterity.</p><p><em><strong>Bone Blade.</strong></em> A blade made of
+      bone springs from your forearm or extends from your hand. The blade counts
+      as a Simple Melee weapon with the Finesse property, and it deals [[/damage
+      1d8 Piercing] damage on a hit. You have &amp;Reference[Advantage] on the
+      attack roll you make with the blade if at least one of your allies is
+      within 5 feet of the target and the ally doesn’t have the
+      &amp;Reference[Incapacitated apply=false]
+      condition.</p><p><em><strong>Flesh Maul.</strong></em> Your fist and
+      forearm coalesce into a hardened mass of flesh and bone. The maul counts
+      as a Simple Melee weapon and deals [[/damage 1d10 Bludgeoning]] damage on
+      a hit. A creature hit by the maul has &amp;Reference[Disadvantage] on the
+      next Strength or Constitution saving throw it makes before the start of
+      its next turn.</p><p><em><strong>Viscera Launcher.</strong></em> Your hand
+      and forearm transform into a crossbow made of muscle and sinew that fires
+      bolts of bile. The launcher counts as a Simple Ranged weapon with a normal
+      range of 30 feet and a long range of 90 feet, and it deals [[/damage 1d6
+      Acid]] damage on a hit. Once on each of your turns when you hit a creature
+      with an attack roll using the launcher, you can deal an extra 1d6 Acid
+      damage to the target.</p><section class="secret foundry-note"
+      id="secret-AZYZtT1NonF68bPW"><p><strong>Foundry Note</strong></p><p>When
+      you gain this feature you are granted the Organic Weapons as items that
+      will appear in you inventory and includes the above
+      features.</p></section>
+    chat: >-
+      <p>You can shape your limbs into weapons. Whenever you take the Attack
+      action or make an Opportunity Attack, you can reform your free hand into
+      one of the following organic weapons: Bone Blade, Flesh Maul, or Viscera
+      Launcher. Your limb immediately returns to its previous form after your
+      Organic Weapon hits or misses its target.</p><p>Whenever you attack with
+      the weapon, you can use your Intelligence modifier for the attack and
+      damage rolls instead of using Strength or Dexterity; and you can cause the
+      weapon to deal Psychic damage or its normal damage type.</p>
+  identifier: organic-weapons
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '8'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      _id: 6xlJTvkNaednkf4h
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionBoneBlade00
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionFleshMaul00
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionVisceraLaun
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Items
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Metamorph
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705470481
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionOrganicWeap'

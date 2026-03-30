@@ -1,0 +1,19 @@
+name: 3rd Level
+sorting: a
+folder: null
+type: Item
+_id: spHJgORb3tppvM5j
+description: ''
+sort: 600000
+color: '#83609d'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: 1749439931310
+  modifiedTime: 1759434935127
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!spHJgORb3tppvM5j'

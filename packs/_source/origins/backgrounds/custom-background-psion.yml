@@ -1,0 +1,160 @@
+name: Custom Background (Psion)
+type: background
+img: systems/dnd5e/icons/backgrounds/criminal.webp
+system:
+  description:
+    value: >-
+      <p><strong>Ability Scores:</strong> Strength, Dexterity, Constitution,
+      Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> An
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin
+      Feat} or a
+      @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.6Gxa1S2WSb17myqQ]{Wild
+      Talent Feat}</p><p><strong>Skill Proficiencies:</strong> 2
+      skills</p><p><strong>Tool Proficiency:</strong> Each background gives a
+      character proficiency with one tool – either a specified tool or one
+      choses from the Artisan’s Tools
+      category.</p><p><strong>Equipment:</strong> 50 GP</p>
+    chat: ''
+  identifier: custom-background-psion
+  source:
+    revision: 2
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment: []
+  advancement:
+    - _id: kDI6zoUamHzFTvHG
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 3
+        recommendation: null
+      value:
+        type: asi
+      level: 0
+      title: Background Ability Score Improvement
+      hint: >-
+        Your background allows you to increase your Strength, Dexterity,
+        Constitution, Intelligence, Wisdom, or Charisma scores; increase one of
+        them by 2 and a different one by 1, or increase all three by 1. None of
+        these increases can raise a score above 20.
+    - _id: Lk1ScjOCqRDtX2Tg
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+          - count: 1
+            pool:
+              - tool:art:*
+              - tool:disg
+              - tool:forg
+              - tool:game:*
+              - tool:herb
+              - tool:music:*
+              - tool:navg
+              - tool:pois
+              - tool:thief
+      value:
+        chosen: []
+      level: 0
+      title: Background Proficiencies
+      hint: >-
+        Your background grants you proficiency in 2 skills. It also grants you
+        proficiency in a tool, kit, or musical instrument.
+    - _id: McRHkSL3WnG2Po7g
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+      value:
+        chosen: []
+      level: 0
+      title: Choose Languages
+      hint: >-
+        Your character knows at least three languages: Common plus two languages
+        you roll or choose from the Standard Languages table.
+    - type: ItemChoice
+      _id: 0MQS8Mqsse48Q9g2
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftAlert000000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftHealer00000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftLucky000000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftMusician000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftTough000000
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftAtmokinesis
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftBiokinesis0
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftClairsentie
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftCryokinesis
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftEmpath00000
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftFleshMorphe
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftMindWhisper
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftPsiTrickste
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftPsykinetici
+          - uuid: Compendium.ua2025-the-psion.feats.Item.uapftPyrokinesis
+        spell: null
+        type: feat
+        restriction:
+          type: feat
+          subtype: ''
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Background Feat
+      hint: Your background grants you an Origin or Wild Talent feat.
+      icon: icons/sundries/books/book-open-purple.webp
+  wealth: '50'
+effects: []
+folder: jF84K2ICLrz39onu
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource:
+    worldId: asmodius
+    uuid: null
+    coreVersion: '12.331'
+    systemId: dnd5e
+    systemVersion: 4.4.2
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759770322557
+  modifiedTime: 1759777854166
+  lastModifiedBy: dnd5ebuilder0000
+_id: uapbgCustomBackg
+sort: 150000
+ownership:
+  default: 0
+_key: '!items!uapbgCustomBackg'

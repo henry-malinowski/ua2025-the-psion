@@ -1,0 +1,117 @@
+folder: AsQW5rYkhzJGDsOK
+name: Cryokinesis
+type: feat
+_id: uapftCryokinesis
+img: icons/magic/water/water-hand.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Ice
+      Manipulation.</strong></em> Once per turn when you cast a spell or hit
+      with an attack roll and deal Bludgeoning, Piercing, Slashing, or Psychic
+      damage, you can change the damage type to Cold
+      damage.</p><p><em><strong>Psionic Talent.</strong></em> You know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Ray of
+      Frost} cantrip. You also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArmorofAga]{Armor
+      of Agathys} and
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Ice
+      Knife} spells prepared. You can cast each spell once without a spell slot,
+      and you regain the ability to cast it in that way when you finish a Long
+      Rest. You can also cast these spells using any spell slots you have. When
+      you cast these spells, they require no Verbal or Material components, and
+      Intelligence, Wisdom, or Charisma is your spellcasting ability for them
+      (choose when you select this feat).</p>
+    chat: ''
+  identifier: wild-talent-feat-cryokinesis
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '12'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      title: Psionic Talent (Cantrip)
+      _id: nRms9d3efgpYOwjc
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Spells)
+      _id: rxZFZiwkINWv8fle
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArmorofAga
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Can’t Have Another Wild Talent Feat
+  type:
+    value: feat
+    subtype: wildTalentFeat
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759775042410
+  modifiedTime: 1759776275450
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapftCryokinesis'

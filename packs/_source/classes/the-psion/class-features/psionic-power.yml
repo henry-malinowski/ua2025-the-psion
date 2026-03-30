@@ -1,0 +1,302 @@
+folder: KWnFjJdpBGthKGPK
+name: Psionic Power
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  activities:
+    XPyVG5R8LBaian6D:
+      type: save
+      _id: XPyVG5R8LBaian6D
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Large or smaller creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Telekinetic Propel (Free Use)
+    VxgtW8LBXG1QLyYA:
+      type: utility
+      _id: VxgtW8LBXG1QLyYA
+      sort: 100000
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      roll:
+        prompt: false
+        visible: false
+        name: Increase range
+        formula: 10*@scale.psion.die.die
+      name: Telepathic Connection (Free Use)
+    fIUuU9U0RNIRz6Mq:
+      type: utility
+      name: Telepath Connection (Spend Energy)
+      _id: fIUuU9U0RNIRz6Mq
+      sort: 200000
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Increase range
+        formula: 10*@scale.psion.die.die
+    MH0BdyE1TQOaRVFa:
+      type: forward
+      name: Telekinetic Propel (Spend Energy)
+      _id: MH0BdyE1TQOaRVFa
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: XPyVG5R8LBaian6D
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: formula
+        formula: '1'
+      - period: lr
+        type: recoverAll
+    max: '@scale.psion.die.number'
+  description:
+    value: >-
+      <p>You harbor a wellspring of psionic energy within yourself. This energy
+      is represented by your Psionic Energy Dice. Your Psion level determines
+      the die size and number of Psionic Energy Dice you have, as shown in the
+      Energy Dice column of the Psion Features table.</p><p>Your Psionic Energy
+      Dice are used to enhance or fuel certain Psion features. You start with
+      two such features: Telekinetic Propel and Telepathic Connection, each of
+      which is detailed below. Some of your powers expend the Psionic Energy
+      Dice, as specified in a power’s description, and you can’t use a power if
+      it requires you to use a die when all your Psionic Energy Dice are
+      expended.</p><p>You regain one expended Psionic Energy Die when you finish
+      a Short Rest, and you regain all of them when you finish a Long
+      Rest.</p><p>Some features that use Psionic Energy Dice require your target
+      to make a saving throw. The save DC equals the spell save DC from this
+      class’s Spellcasting feature.</p><p><em><strong>Telekinetic
+      Propel.</strong></em> As a &amp;Reference[Bonus Action], choose one Large
+      or smaller creature other than you that you can see within 30 feet of
+      yourself. When you do so, the target must succeed on a Strength saving
+      throw or be moved 5 feet straight toward you or straight away from you.
+      Alternatively, you can roll one Psionic Energy Die when you take this
+      Bonus Action, and the distance moved is equal to [[/r 5 *
+      @scale.psion.die.die]]{5 times the number rolled}. The die is expended
+      only if the target fails the saving throw.</p><p><em><strong>Telepathic
+      Connection.</strong></em> You have telepathy with a range of 30 feet. As a
+      Bonus Action, you can roll one Psionic Energy Die. For the next hour, the
+      range of your telepathy increases by a number of feet equal to [[/r 10 *
+      @scale.psion.die.die]]{10 times the number rolled}. The first time you use
+      this Bonus Action after each Long Rest, you don’t expend the Psionic
+      Energy Die. All other times you use this feature, you expend the die.</p>
+    chat: ''
+  identifier: psionic-power
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '3'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 1
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psion
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Telepathy
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+    _id: waURq2rrMzLbWVuh
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.languages.communication.telepathy.value
+        mode: 5
+        value: '30'
+        priority: 0
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759702435609
+      modifiedTime: 1759702456302
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!items.effects!psionPower000000.waURq2rrMzLbWVuh'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759678497998
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_id: psionPower000000
+sort: 0
+ownership:
+  default: 0
+_key: '!items!psionPower000000'

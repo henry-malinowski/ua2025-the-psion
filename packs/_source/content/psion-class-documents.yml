@@ -1,0 +1,179 @@
+name: Psion Class Documents
+_id: uaPsionClassDocs
+pages:
+  - sort: 100000
+    name: The Psion
+    type: class
+    _id: iVKn7ZQseEVy3eoX
+    system:
+      item: Compendium.ua2025-the-psion.classes.Item.psionBaseClass00
+      description:
+        value: >-
+          <img
+          src="modules/ua2025-the-psion/assets/art/psion_header.jpg"><p>Psions
+          weave magic and extraordinary powers through the power of their minds.
+          They develop their minds as fonts of power that manifest spells and
+          grow stronger over the course of their adventuring careers. You can
+          find everything you need to play one of these psionic powerhouses in
+          the next few sections.</p>
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: >-
+          <p>A Psion subclass is a specialization that grants you features at
+          certain Psion levels, as specified in the subclass. This section
+          presents the
+          @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.iVKn7ZQseEVy3eoX#metamorph]{Metamorph},
+          @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.iVKn7ZQseEVy3eoX#psi-warper]{Psi
+          Warper},
+          @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.iVKn7ZQseEVy3eoX#psykinetic]{Psykinetic},
+          and
+          @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.iVKn7ZQseEVy3eoX#telepath]{Telepath}
+          subclasses.</p>
+      subclassItems:
+        - Compendium.ua2025-the-psion.classes.Item.psionSubMetamorp
+        - Compendium.ua2025-the-psion.classes.Item.psionSubPsiWarpe
+        - Compendium.ua2025-the-psion.classes.Item.psionSubPsykinet
+        - Compendium.ua2025-the-psion.classes.Item.psionSubTelepath
+      style: '2024'
+      subclassHeader: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    category: null
+    _key: '!journal.pages!uaPsionClassDocs.iVKn7ZQseEVy3eoX'
+  - sort: 200000
+    name: Psionic Discipline Options
+    type: text
+    _id: GVieisk8o3M1B6s8
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionBiofeedback]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionBiofeedback
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionBolsteringP]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionBolsteringP
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionThoughsDest]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionThoughsDest
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionDevilishTon]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionDevilishTon
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionExpandedAwa]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionExpandedAwa
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionIdInsinuati]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionIdInsinuati
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionInerrantAim]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionInerrantAim
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionObservantMi]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionObservantMi
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionPsionicBack]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionPsionicBack
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionPsionicGuar]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionPsionicGuar
+        caption=false cite=false]</p><hr
+        /><h3>@UUID[Compendium.ua2025-the-psion.classes.Item.psionSharpenedMi]</h3><p>@Embed[Compendium.ua2025-the-psion.classes.Item.psionSharpenedMi
+        caption=false cite=false]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!journal.pages!uaPsionClassDocs.GVieisk8o3M1B6s8'
+  - sort: 300000
+    name: Wild Talent Feats
+    type: text
+    _id: 6Gxa1S2WSb17myqQ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftAtmokinesis]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftAtmokinesis
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftBiokinesis0]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftBiokinesis0
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftClairsentie]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftClairsentie
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftCryokinesis]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftCryokinesis
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftEmpath00000]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftEmpath00000
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftFleshMorphe]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftFleshMorphe
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftMindWhisper]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftMindWhisper
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftPsiTrickste]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftPsiTrickste
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftPsykinetici]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftPsykinetici
+        cite=false caption=false]</p><hr
+        /><h2>@UUID[Compendium.ua2025-the-psion.feats.Item.uapftPyrokinesis]</h2><p>@Embed[Compendium.ua2025-the-psion.feats.Item.uapftPyrokinesis
+        cite=false caption=false]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759777450447
+      modifiedTime: 1759777936031
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionClassDocs.6Gxa1S2WSb17myqQ'
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769824829
+  modifiedTime: 1774907634031
+  lastModifiedBy: dnd5ebuilder0000
+categories: []
+_key: '!journal!uaPsionClassDocs'

@@ -1,0 +1,70 @@
+folder: XsuDY1LjR6gMAA5F
+name: Psi Warper Spells
+type: feat
+_id: psionPsiWarperSp
+img: icons/magic/lightning/bolt-strike-forked-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you reach a Psion level specified in the Psi Warper Spells table,
+      you thereafter always have the listed spells
+      prepared.</p><table><caption>Psi Warper
+      Spells</caption><thead><tr><td>Psion
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplExpeditiou]{Expeditious
+      Retreat},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal]{Feather
+      Fall},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty
+      Step},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Shatter}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000]{Blink},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension
+      Door}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel
+      Wind Strike},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleportat]{Teleportation
+      Circle}</td></tr></tbody></table><section class="secret"
+      id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: psi-warper-spells
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Psi Warper
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759707068267
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionPsiWarperSp'

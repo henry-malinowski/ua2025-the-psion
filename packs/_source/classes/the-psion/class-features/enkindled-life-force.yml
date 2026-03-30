@@ -1,0 +1,113 @@
+folder: KWnFjJdpBGthKGPK
+name: Enkindled Life Force
+type: feat
+_id: psionEnkindledLi
+img: icons/magic/control/fear-fright-white.webp
+system:
+  activities:
+    U1fXsVJTQWOEoMPs:
+      type: utility
+      _id: U1fXsVJTQWOEoMPs
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: >-
+          Once per turn, when you roll one or more Psionic Energy Dice for a
+          Psion feature or Psionic Discipline
+      consumption:
+        scaling:
+          allowed: true
+          max: '2'
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: smallest
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Roll extra Psion Energy Dice
+        formula: '@scaling@scale.psion.die.die'
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You burn your life force to achieve greater psionics. Once per turn,
+      when you roll one or more
+      @UUID[Compendium.ua2025-the-psion.classes.Item.psionPower000000]{Psionic
+      Energy Dice} for a Psion feature or Psionic Discipline, you can expend one
+      or two of your Hit Point Dice. For each Hit Point Die expended, roll an
+      additional Psionic Energy Die and add the numbers rolled to the total.
+      This roll does not expend the Psionic Energy Die.</p>
+    chat: ''
+  identifier: enkindled-life-force
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '4'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 20
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psion
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  createdTime: 1759678455280
+  modifiedTime: 1761106625611
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionEnkindledLi'

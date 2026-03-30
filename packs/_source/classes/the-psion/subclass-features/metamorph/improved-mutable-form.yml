@@ -1,0 +1,612 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Improved Mutable Form
+type: feat
+_id: psionImprovedMut
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+system:
+  activities:
+    qJgA6rCph0rmk97W:
+      type: utility
+      _id: qJgA6rCph0rmk97W
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: QVZNsbNfwhP2Tquz
+        - _id: Gjc87fRslh0Fas57
+        - _id: P9TZnFnmc5PTmmNP
+        - _id: Pl9MjDMJPHxBRiSL
+        - _id: aQwP9Nczokowa4XJ
+        - _id: K0u2bPzplWNSY2OF
+        - _id: sZXyUFQPAWDXzF1w
+        - _id: rmlwkRuJjIRGbCaa
+        - _id: nAqjy4KxNLu0HzZt
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Stony Epidermis
+    4vIx2WSlneoCUlrM:
+      type: utility
+      _id: 4vIx2WSlneoCUlrM
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: p7XTa75Gf14AYEJi
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Unnatural Flexibility
+    YsfYPNvE1RcgRA2o:
+      type: utility
+      _id: YsfYPNvE1RcgRA2o
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: fGJAQs0wmG1AVmdg
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Superior Stride
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you use
+      @UUID[Compendium.ua2025-the-psion.classes.Item.psionMutableForm]{Mutable
+      Form}, the duration increases to 10 minutes and you gain one of the
+      following benefits of your choice, the effects of which last until Mutable
+      Form ends.</p><p><em><strong>Stony Epidermis.</strong></em> You have
+      &amp;Reference[Advantage] on Constitution saving throws to maintain
+      Concentration. In addition, choose one of the following damage types:
+      Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Poison, Slashing, or
+      Thunder. You gain &amp;Reference[damageresistance]{Resistance} to the
+      chosen damage type.</p><p><em><strong>Superior Stride.</strong></em> While
+      you aren’t wearing armor, you can take the &amp;Reference[Dash] action as
+      a &amp;Reference[Bonus Action], and you have a Climb Speed and Swim Speed
+      equal to your Speed.</p><p><em><strong>Unnatural
+      Flexibility.</strong></em> You gain a +1 bonus to AC, and your body—along
+      with any equipment you’re wearing or carrying—becomes pliable. You can
+      move through any space as narrow as 1 inch, and you can spend 5 feet of
+      movement to escape from nonmagical restraints or end the
+      &amp;Reference[Grappled apply=false] condition.</p>
+    chat: ''
+  identifier: improved-mutable-form
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Metamorph
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Stony Epidermis (Acid Protection)
+    img: systems/dnd5e/icons/svg/damage/acid.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    _id: QVZNsbNfwhP2Tquz
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.u2mf5JowVgwqCARq
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionImprovedMut.QVZNsbNfwhP2Tquz'
+  - name: Stony Epidermis (Bludgeoning Protection)
+    img: systems/dnd5e/icons/svg/damage/bludgeoning.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.XYOXUUgKLjXXGt9W
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: Gjc87fRslh0Fas57
+    _key: '!items.effects!psionImprovedMut.Gjc87fRslh0Fas57'
+  - name: Stony Epidermis (Cold Protection)
+    img: systems/dnd5e/icons/svg/damage/cold.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.Wpc5zvXyw2FSCJSD
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: P9TZnFnmc5PTmmNP
+    _key: '!items.effects!psionImprovedMut.P9TZnFnmc5PTmmNP'
+  - name: Stony Epidermis (Fire Protection)
+    img: systems/dnd5e/icons/svg/damage/fire.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.S7XVvtgRT8uEP1iw
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: Pl9MjDMJPHxBRiSL
+    _key: '!items.effects!psionImprovedMut.Pl9MjDMJPHxBRiSL'
+  - name: Stony Epidermis (Lightning Protection)
+    img: systems/dnd5e/icons/svg/damage/lightning.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.E8jlVJoTlfjKcz1r
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: K0u2bPzplWNSY2OF
+    _key: '!items.effects!psionImprovedMut.K0u2bPzplWNSY2OF'
+  - name: Stony Epidermis (Piercing Protection)
+    img: systems/dnd5e/icons/svg/damage/piercing.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.iR95ZjBkbXXD3Ena
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: aQwP9Nczokowa4XJ
+    _key: '!items.effects!psionImprovedMut.aQwP9Nczokowa4XJ'
+  - name: Stony Epidermis (Poison Protection)
+    img: systems/dnd5e/icons/svg/damage/poison.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.KZdzty5DTXdpGukZ
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: sZXyUFQPAWDXzF1w
+    _key: '!items.effects!psionImprovedMut.sZXyUFQPAWDXzF1w'
+  - name: Stony Epidermis (Slashing Protection)
+    img: systems/dnd5e/icons/svg/damage/slashing.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.sBrdZmXfn33LhYwh
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: rmlwkRuJjIRGbCaa
+    _key: '!items.effects!psionImprovedMut.rmlwkRuJjIRGbCaa'
+  - name: Stony Epidermis (Thunder Protection)
+    img: systems/dnd5e/icons/svg/damage/thunder.svg
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: Item.ibjLAZyIWUrnwcmL.ActiveEffect.jP1TZyrEYtskdWXf
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _id: nAqjy4KxNLu0HzZt
+    _key: '!items.effects!psionImprovedMut.nAqjy4KxNLu0HzZt'
+  - name: Unnatural Flexibility
+    img: icons/magic/unholy/hands-cloud-light-pink.webp
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.BhwmPEsCecYaSt7Q
+    _id: p7XTa75Gf14AYEJi
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionImprovedMut.p7XTa75Gf14AYEJi'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705423611
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionImprovedMut'

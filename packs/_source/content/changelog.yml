@@ -1,0 +1,347 @@
+name: Changelog
+_id: uaPsionChangelog
+pages:
+  - sort: 100000
+    name: v2.0.0
+    type: text
+    _id: MJslSZhhcM4L1at3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Module Changes</h1><ul><li><p>General Improvements to the way
+        advancements are implemented especially on
+        @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.6Gxa1S2WSb17myqQ]{Wild
+        Talant Feats}.</p></li><li><p>All items in the Compendia have human
+        readable UUIDs to make future development
+        easier.</p></li><li><p>Improved Foundry notes to aid in use of features
+        that may be less than intuitive.</p></li><li><p>Added
+        @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.lCrh2xQupgGVKcy5]{subclass
+        spell lists} to the Compendium browser.</p></li><li><p>All features that
+        were changed by the Psion Updates UA have replaced their old features
+        (see below). It is required to rebuild characters with the Psion class
+        as the old references are broken.</p></li></ul><h1>Class
+        Changes</h1><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionPower000000]{Psionic
+        Power}</strong> now has a free baseline ability in Telekinetic Propel
+        and Telepathic Connection.</p><p>• <strong>Spellcasting</strong> now
+        provides new cantrips at levels 4 and 10.</p><p>• <strong>Psionic
+        Modes</strong> have been removed. Aspects of the design can be seen in
+        other features like Psionic Discipline.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionDiscipline0]{Psionic
+        Discipline}</strong> now gives you additional disciplines at earlier
+        levels, but you gain only one.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionRestoration]{Psionic
+        Restoration}</strong> has been redesigned to quickly regain expended
+        Psionic Energy Dice.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionReserves000]{Psionic
+        Reserves}</strong> is a new feature that allows the Psion to keep a
+        minimum amount of Psionic Energy Dice.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionEnkindledLi]{Enkindled
+        Life Force}</strong> is now more flexible in the amount of Hit Point
+        Dice that can be expended and clarifies the additional Psionic Energy
+        Die aren’t expended.</p><h2>Psionic Disciplines</h2><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionBiofeedback]{Biofeedback}</strong>
+        and
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionThoughsDest]{Destructive
+        Thoughts}</strong> are now more flexible in the number of Psionic Energy
+        Dice you can expend.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionBolsteringP]{Bolstering
+        Precognition}</strong> (formerly Swift Precognition) now provides a
+        bonus to your or an ally’s next D20 Test.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionDevilishTon]{Devilish
+        Tongue}</strong>,
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionExpandedAwa]{Expanded
+        Awareness}</strong>, and
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionObservantMi]{Observant
+        Mind}</strong> (formerly Tactical Mind) now expend the Psionic Energy
+        Die only on a success.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionSharpenedMi]{Sharpened
+        Mind}</strong> is a new discipline, and Ego Whip has been redesigned as
+        a spell.</p><h2>Metamorph</h2><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionMutableForm]{Mutable
+        Form}</strong> (formerly Extend Limbs) now grants Temporary Hit Points
+        from the expended Psionic Energy Die.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionOrganicWeap]{Organic
+        Weapons}</strong> now regains its form until you change it or have the
+        Unconscious condition. In addition, magic items that provide benefits to
+        Organic Weapons will appear in a future product if this subclass is
+        printed.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionFleshWeaver]{Flesh
+        Weaver}</strong> is a new feature.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionLifeBending]{Life-Bending
+        Weapons}</strong> now provides additional damage without expending a
+        Psionic Energy Die.</p><h2>Psykinetic</h2><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionStrongerTel]{Stronger
+        Telekinesis}</strong> is a new feature.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionTelekenetic]{Telekinetic
+        Techniques}</strong> now allows the Psion to use Telekinetic Propel more
+        than any other Psion.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionTranceDestr]{Destructive
+        Trance}</strong> (formerly Empowered Attack Mode) no longer uses Psionic
+        Modes, and you can add one Psionic Energy Die to your spell damage
+        without expending it.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionReboundingF]{Rebounding
+        Field}</strong> grants Temporary Hit Points whether the target fails or
+        succeeds on its saving throw.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionEnhancedTel]{Enhanced
+        Telekinetic Crush}</strong> now adds the Psionic Energy Die expended to
+        the modified spell’s damage.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionHeightenedT]{Heightened
+        Telekinesis}</strong> now only requires Psionic Energy Dice and doesn’t
+        expend a spell slot.</p><h2>Telepath</h2><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionMindInfiltr]{Mind
+        Infiltrator }</strong>now expends only one Psionic Energy Die.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionTelepathSpe]{Telepath
+        Spells}</strong> has new spells.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionDistraction]{Telepathic
+        Distraction}</strong> is a new feature replacing Telepathic Hub.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionBulwarkMind]{Bulwark
+        Mind}</strong> (formerly Empowered Defense Mode) no longer uses Psionic
+        Modes, and you can add one Psionic Energy Die to a saving throw without
+        expending it.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionPotentThoug]{Potent
+        Thoughts}</strong> now also increases the range of your
+        telepathy.</p><p>•
+        <strong>@UUID[Compendium.ua2025-the-psion.classes.Item.psionScrambleMin]{Scramble
+        Minds}</strong> now doesn’t expend a spell slot and allows the Psion to
+        choose the behavior of the target instead of rolling dice.</p><h1>Spell
+        List</h1><p>The Psion spell list includes the following new
+        spells:</p><p>• Level 1:
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplLifeSiphon]{Life
+        Siphon},
+        @UUID[Compendium.dnd-players-handbook.spells.Item.phbSanctuary0000],
+        @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000],
+        @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav]</em></p><p>•
+        Level 2:
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplEctoplasmi]{Ectoplasmic
+        Trail},
+        @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplEgoWhip000]{Ego
+        Whip}</em></p><p>• Level 3:
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplBleedingDa]{Bleeding
+        Darkness},
+        @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplEnemiesAbo]{Enemies
+        Abound}</em></p><p>• Level 4:
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplLifeInvers]{Life
+        Inversion Field}</em></p><p>• Level 6:
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplMentalPris]{Mental
+        Prison},
+        @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplPsionicBla]{Psionic
+        Blast},
+        @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplThoughtFor]{Thought
+        Form}</em></p><p>• Level 8:
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplHorridWilt]{Abi-Dalzim’s
+        Horrid Wilting}</em></p><h2>Spell Updates</h2><h4>New Spells</h4><p>New
+        spells in this article—Bleeding Darkness, Ectoplasmic Trail, Life
+        Inversion Field, Summon Astral Entity, and Telekinetic Crush—add new
+        options to various classes’ spell lists. The Psion also receives unique
+        spells: Ego Whip, Life Siphon, Psionic Blast, and Thought
+        Form.</p><h4>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplFlingTelep]{Telekinetic
+        Fling}</h4><p>This cantrip no longer requires ammunition and doesn’t
+        destroy the
+        object.</p><h4>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplMindWhip00]{Tasha’s
+        Mind Whip}</h4><p>The spell now restricts the target’s turn options as
+        before.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759777970197
+      modifiedTime: 1761107570646
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionChangelog.MJslSZhhcM4L1at3'
+  - sort: 400000
+    name: v2.0.1
+    type: text
+    _id: LTgp8Sl6GYN2WJey
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1>Modules Changes</h1><ul><li><p>Fixed scaling targets in
+        <em>@UUID[Compendium.ua2025-the-psion.spells.Item.uapsplMindWhip00]{Tasha's
+        Mind Whip}</em>.</p></li><li><p>Removed deprecated key from
+        module.json.</p></li><li><p>Added Compenium links and fixed typos in
+        @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionChangelog.JournalEntryPage.MJslSZhhcM4L1at3]{Changelog
+        for v2.0.0}.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.1.10
+      createdTime: 1761106412827
+      modifiedTime: 1774907509424
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionChangelog.LTgp8Sl6GYN2WJey'
+  - sort: 50000
+    name: v1.0.2
+    type: text
+    _id: tfZeOURXzjvPnf6u
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ul><li><p>Added custom class and subclass icons to fit FoundryVTT's
+        style</p></li><li><p>Added Psion header art to class
+        journal</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774907468492
+      modifiedTime: 1774907514072
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionChangelog.tfZeOURXzjvPnf6u'
+  - sort: 0
+    name: v1.0.1
+    type: text
+    _id: 18igE6XqS3UG9kje
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <ul><li><p>Added Journals</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774907489036
+      modifiedTime: 1774907926010
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionChangelog.18igE6XqS3UG9kje'
+  - sort: -100000
+    name: v1.0.0
+    type: text
+    _id: Op79NVcZPOvLyvS1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <ul><li><p>Initial release</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774907499194
+      modifiedTime: 1774907508047
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionChangelog.Op79NVcZPOvLyvS1'
+  - sort: 500000
+    name: v2.1.0
+    type: text
+    _id: EbLIVtZdQwRA3Dto
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ul><li><p>System + FoundryVTT version bump</p></li><li><p>Added
+        auto-opening changelog</p></li><li><p>Migrated VCS to YML instead of raw
+        leveldb files</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774907555870
+      modifiedTime: 1774907609675
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionChangelog.EbLIVtZdQwRA3Dto'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    locked: false
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769781390
+  modifiedTime: 1774907930964
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaPsionChangelog'

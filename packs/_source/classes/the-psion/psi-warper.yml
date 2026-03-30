@@ -1,0 +1,186 @@
+folder: TVS9pXbKE0id5sRE
+name: Psi Warper
+type: subclass
+_id: psionSubPsiWarpe
+img: modules/ua2025-the-psion/assets/icons/classes/psion-psi-warper.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Warp Space with the Power of Your
+      Mind</p></blockquote><p>Psi Warpers tune their psionic powers to
+      manipulating the space between objects. Capable of teleporting across the
+      battlefield and creating vacuums in space, a Psi Warper is never in one
+      place for too long.</p>
+    chat: ''
+  identifier: psi-warper
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '8'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      _id: Ul8mXNqedKDAvruH
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionPsiWarperSp
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionTeleportati
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionWarpPropel0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: YvlMNxaFBBEAxiZT
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionWarpSpace00
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionTeleporterC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Items
+      hint: ''
+    - type: ItemGrant
+      _id: BT3uVnIXGCVqcJT4
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionDuplicitous
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: b9X1eJMCRzGs9nZJ
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionMassTelepor
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: VrDUWBr1kGTEFdBX
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplExpeditiou
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShatter000
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Psi Warper Spells
+      hint: ''
+    - type: ItemGrant
+      _id: rRN1VCrmll9IDGAt
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Psi Warper Spells
+      hint: ''
+    - type: ItemGrant
+      _id: xMlA6bncJwjnTPwK
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBanishment
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Psi Warper Spells
+      hint: ''
+    - type: ItemGrant
+      _id: 5dnfqMZWzSfUfeUD
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplTeleportat
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Psi Warper Spells
+      hint: ''
+  classIdentifier: psion
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679873171
+  modifiedTime: 1759707107362
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionSubPsiWarpe'

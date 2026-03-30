@@ -1,0 +1,207 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Viscera Launcher
+type: weapon
+_id: psionVisceraLaun
+img: icons/magic/unholy/projectile-missile-green.webp
+system:
+  activities:
+    SrTBDAu50J2skr8L:
+      _id: SrTBDAu50J2skr8L
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: spellcasting
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+    vgLzpYBIRPHJJYRp:
+      type: damage
+      _id: vgLzpYBIRPHJJYRp
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+              - psychic
+            scaling:
+              number: 1
+      name: Additional Damage
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your hand and forearm transform into a crossbow made of muscle and
+      sinew that fires bolts of bile. The launcher counts as a Simple Ranged
+      weapon with a normal range of 30 feet and a long range of 90 feet, and it
+      deals [[/damage type=acid 1d6]] damage on a hit. Once on each of your
+      turns when you hit a creature with an attack roll using the launcher, you
+      can deal an extra [[/damage type=acid 1d6]] damage to the
+      target.</p><section class="secret foundry-note"
+      id="secret-Cw7IjatCy0vovSez"><p><strong>Foundry Note</strong></p><p>When
+      you use this weapon, you can add 1d6 Acid damage to the situation damage
+      of the first roll. There is also an additional damage activity included in
+      this item.</p></section>
+    chat: ''
+  identifier: viscera-launcher
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '8'
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+    name: Unidentified Weapon
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  cover: null
+  crewed: false
+  ammunition: {}
+  armor:
+    value: null
+  damage:
+    base:
+      number: 1
+      denomination: 6
+      types:
+        - acid
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: '@mod'
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  magicalBonus: null
+  properties: []
+  proficient: null
+  range:
+    value: 30
+    long: 90
+    reach: null
+    units: ft
+  type:
+    value: simpleR
+    baseItem: ''
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705478274
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionVisceraLaun'

@@ -1,0 +1,105 @@
+folder: hCqZignhKT3tUzdF
+name: Inerrant Aim
+type: feat
+_id: psionInerrantAim
+img: icons/skills/ranged/projectile-spiral-gray.webp
+system:
+  activities:
+    sYLBNfFdiiIyLNdF:
+      type: utility
+      _id: sYLBNfFdiiIyLNdF
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you make an attack roll against a creature and miss
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Attack bonus
+        formula: '@scale.psion.die.die'
+      name: Add Psionic Energy Die
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you make an attack roll against a creature and miss, you can roll
+      one Psionic Energy Die and add the number rolled to the attack roll. If
+      this causes the attack to hit, the die is expended.</p><section
+      class="secret" id="secret-OxPYSETWYu82Hidw"><p><strong>Foundry
+      Note</strong></p><p>If after using this feature, your attack still misses,
+      click the Refund Resource button in the chat.</p></section>
+    chat: ''
+  identifier: inerrant-aim
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '5'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 2
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: psionicDiscipline
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679720107
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionInerrantAim'

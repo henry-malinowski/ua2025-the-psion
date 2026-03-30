@@ -1,0 +1,18 @@
+name: Wild Talent Feats
+sorting: a
+folder: null
+type: Item
+description: ''
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: 1749440160902
+  modifiedTime: 1749440160973
+  lastModifiedBy: dnd5ebuilder0000
+_id: AsQW5rYkhzJGDsOK
+sort: 100000
+_key: '!folders!AsQW5rYkhzJGDsOK'

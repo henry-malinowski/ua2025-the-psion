@@ -1,0 +1,67 @@
+folder: kQHq4I3dNLE5bMGb
+name: Telepath Spells
+type: feat
+_id: psionTelepathSpe
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you reach a Psion level specified in the Telepath Spells table,
+      you thereafter always have the listed spells
+      prepared.</p><table><caption>Telepath Spells</caption><thead><tr><td>Psion
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect
+      Thoughts},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Mind
+      Spike}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Counterspell},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{Compulsion},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{Modify
+      Memory},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplYolandesRe]{Yolande's
+      Regal Presence}</td></tr></tbody></table><section class="secret"
+      id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: telepath-spells
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Telepath
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768974761
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionTelepathSpe'

@@ -1,0 +1,106 @@
+folder: kQHq4I3dNLE5bMGb
+name: Mind Infiltrator
+type: feat
+_id: psionMindInfiltr
+img: icons/magic/death/skull-energy-light-white.webp
+system:
+  activities:
+    eNjCrPKcAM6lBglM:
+      type: utility
+      _id: eNjCrPKcAM6lBglM
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect
+      Thoughts}, you can expend one Psionic Energy Die to modify the spell so
+      that the spell doesn’t require spell components or
+      &amp;Reference[Concentration]. In addition, when you use the <strong>Read
+      Thoughts</strong> effect of the spell, the target doesn’t know you’re
+      probing its mind if it fails the Wisdom saving throw.</p>
+    chat: ''
+  identifier: mind-infiltrator
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Telepath
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768946611
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionMindInfiltr'

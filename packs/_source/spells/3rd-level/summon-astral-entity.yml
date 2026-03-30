@@ -1,0 +1,166 @@
+folder: spHJgORb3tppvM5j
+name: Summon Astral Entity
+type: spell
+img: icons/magic/death/undead-ghost-scream-teal.webp
+system:
+  activities:
+    ho3N3f3qggyEycs7:
+      type: summon
+      _id: ho3N3f3qggyEycs7
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: '1'
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 10 * (@item.level - 3)
+        attackDamage: '@item.level'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: wuBWkmtaVSV0Nw3k
+          uuid: Compendium.ua2025-the-psion.actors.Actor.psionSpiritCryst
+          level: {}
+          types: []
+        - count: ''
+          name: ''
+          _id: ruyCghA3bA9IOqe3
+          uuid: Compendium.ua2025-the-psion.actors.Actor.psionSpiritEctop
+          level: {}
+          types: []
+        - count: ''
+          name: ''
+          _id: GhbhCwdXxr5AGmHz
+          uuid: Compendium.ua2025-the-psion.actors.Actor.psionSpiritGhost
+          level: {}
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You call forth the spirit of a psionic entity. It manifests in an
+      unoccupied space that you can see within range and uses the
+      <strong>Psionic Spirit</strong> stat block. When you cast the spell,
+      choose
+      @UUID[Compendium.ua2025-the-psion.actors.Actor.psionSpiritCryst]{Crystal
+      Entity},
+      @UUID[Compendium.ua2025-the-psion.actors.Actor.psionSpiritEctop]{Ectoplasmic
+      Entity}, or
+      @UUID[Compendium.ua2025-the-psion.actors.Actor.psionSpiritGhost]{Ghostly
+      Entity}. The creature resembles an astral entity of that kind, which
+      determines certain details in its stat block. The creature disappears when
+      it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an
+      ally to you and your allies. In combat, the creature shares your
+      Initiative count, but it takes its turn immediately after yours. It obeys
+      your verbal commands (no action required by you). If you don’t issue any,
+      it takes the &amp;Reference[Dodge] action and uses its movement to avoid
+      danger.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em>
+      Use the spell slot’s level for the spell’s level in the stat block.</p>
+    chat: ''
+  identifier: summon-astral-entity
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '14'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 3
+  materials:
+    value: a gem or crystal worth 300+ GP
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '90'
+  school: con
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+      count: '1'
+      special: ''
+  method: spell
+  prepared: 0
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769588499
+  modifiedTime: 1759775147477
+  lastModifiedBy: dnd5ebuilder0000
+_id: uapsplSummonAstr
+sort: 150000
+ownership:
+  default: 0
+_key: '!items!uapsplSummonAstr'

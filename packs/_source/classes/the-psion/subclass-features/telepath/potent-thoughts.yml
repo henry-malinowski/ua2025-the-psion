@@ -1,0 +1,187 @@
+folder: kQHq4I3dNLE5bMGb
+name: Potent Thoughts
+type: feat
+_id: psionPotentThoug
+img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+system:
+  activities:
+    smMsU1RSNfYZQxpC:
+      type: enchant
+      name: Enchant Cantrip
+      _id: smMsU1RSNfYZQxpC
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: A3uonYRrJs6fdDnS
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You have telepathy with a range of 60 feet. In addition, you add your
+      Intelligence modifier to the damage you deal with any Psion
+      cantrip.</p><section class="secret"
+      id="secret-3cdT0RlurgG5XV4o"><p><strong>Foundry Note</strong></p><p>This
+      feature includes an Enchant activity which can be used to add you
+      Intelligence to a Psion cantrip.</p></section>
+    chat: ''
+  identifier: potent-thoughts
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Telepath
+  type:
+    value: class
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Potent Thoughts
+    img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+    disabled: true
+    _id: A3uonYRrJs6fdDnS
+    system: {}
+    changes:
+      - key: system.damage.bonus
+        mode: 2
+        value: '@abilities.int.mod'
+      - key: name
+        mode: 5
+        value: Potent {}
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionPotentThoug.A3uonYRrJs6fdDnS'
+  - name: Telepathy Range Upgrade
+    img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+    origin: Compendium.ua2025-the-psion.classes.Item.psionPotentThoug
+    _id: htWXAxf2MUfKIdHs
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.languages.communication.telepathy.value
+        mode: 4
+        value: '60'
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionPotentThoug.htWXAxf2MUfKIdHs'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768955518
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionPotentThoug'

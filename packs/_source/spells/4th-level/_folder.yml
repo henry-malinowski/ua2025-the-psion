@@ -1,0 +1,19 @@
+name: 4th Level
+sorting: a
+folder: null
+type: Item
+_id: fDtXeLXtMAAQtQwF
+description: ''
+sort: 1000000
+color: '#75528d'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: 1749440023821
+  modifiedTime: 1759434943027
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!fDtXeLXtMAAQtQwF'

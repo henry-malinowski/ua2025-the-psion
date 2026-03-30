@@ -1,0 +1,19 @@
+name: 9th Level
+sorting: a
+folder: null
+type: Item
+_id: qzQI8WtdRAV4CbSp
+description: ''
+sort: 1300000
+color: '#300d44'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: 1749439959733
+  modifiedTime: 1759434947808
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!qzQI8WtdRAV4CbSp'

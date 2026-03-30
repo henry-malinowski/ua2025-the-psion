@@ -1,0 +1,146 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Flesh Maul
+type: weapon
+_id: psionFleshMaul00
+img: icons/magic/unholy/strike-beam-blood-large-red-teal.webp
+system:
+  activities:
+    5I6W8KXAHP84SgRO:
+      _id: 5I6W8KXAHP84SgRO
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: spellcasting
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your fist and forearm coalesce into a hardened mass of flesh and bone.
+      The maul counts as a Simple Melee weapon and deals 1d10 Bludgeoning damage
+      on a hit. A creature hit by the maul has Disadvantage on the next Strength
+      or Constitution saving throw it makes before the start of its next
+      turn.</p>
+    chat: ''
+  identifier: flesh-maul
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '8'
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  cover: null
+  crewed: false
+  ammunition: {}
+  armor:
+    value: null
+  damage:
+    base:
+      number: 1
+      denomination: 10
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: '@mod'
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  magicalBonus: null
+  properties: []
+  proficient: null
+  range:
+    value: null
+    long: null
+    reach: null
+    units: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705400198
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionFleshMaul00'

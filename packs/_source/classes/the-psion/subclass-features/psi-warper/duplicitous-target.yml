@@ -1,0 +1,108 @@
+folder: XsuDY1LjR6gMAA5F
+name: Duplicitous Target
+type: feat
+_id: psionDuplicitous
+img: icons/magic/movement/abstract-ribbons-red-orange.webp
+system:
+  activities:
+    FRSNhahDPYA74el1:
+      type: utility
+      _id: FRSNhahDPYA74el1
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: When a creature you can see makes an attack roll against you
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Willing creature that isn't Incapacitated
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When a creature you can see makes an attack roll against you, you can
+      take a Reaction to expend one Psionic Energy Die and choose a willing
+      creature you can see within 30 feet of yourself that doesn’t have the
+      Incapacitated condition. You and the willing creature teleport, swapping
+      places with each other. The creature then becomes the target of the attack
+      roll.</p>
+    chat: ''
+  identifier: duplicitous-target
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psi Warper
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759707045618
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionDuplicitous'

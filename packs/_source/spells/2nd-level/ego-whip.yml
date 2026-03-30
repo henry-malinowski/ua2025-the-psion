@@ -1,0 +1,120 @@
+folder: PNkpxKtzdM2HkQLR
+name: Ego Whip
+type: spell
+_id: uapsplEgoWhip000
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  activities:
+    54OpGAx5HceVrPCl:
+      type: save
+      _id: 54OpGAx5HceVrPCl
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: you can see
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The creature makes [[/save]]{Charisma saving throw}. On a failed save,
+      the target must subtract [[/r 1d8]] from the ability check or saving
+      throw.</p>
+    chat: ''
+  identifier: ego-whip
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '11'
+    custom: ''
+    license: ''
+  activation:
+    type: reaction
+    condition: >-
+      which you take when a creature you can see within 30 feet of yourself
+      makes a Charisma-based ability check or saving throw
+  duration:
+    units: inst
+  level: 2
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 0
+  properties:
+    - vocal
+  range:
+    units: ft
+    special: ''
+    value: '120'
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+      count: ''
+      special: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769518059
+  modifiedTime: 1759769518059
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapsplEgoWhip000'

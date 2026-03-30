@@ -1,0 +1,18 @@
+name: The Psion
+sorting: a
+folder: null
+type: Item
+description: ''
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: 1749440130213
+  modifiedTime: 1749440130397
+  lastModifiedBy: dnd5ebuilder0000
+_id: TVS9pXbKE0id5sRE
+sort: 100000
+_key: '!folders!TVS9pXbKE0id5sRE'

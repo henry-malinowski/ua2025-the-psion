@@ -1,0 +1,103 @@
+folder: hCqZignhKT3tUzdF
+name: Bolstering Precognition
+type: feat
+_id: psionBolsteringP
+img: icons/magic/perception/orb-eye-scrying.webp
+system:
+  activities:
+    sEfv7WJ1NV5eqOze:
+      type: utility
+      _id: sEfv7WJ1NV5eqOze
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you cast a Psion spell from the Abjuration or Divination school
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        units: self
+        override: false
+        special: When you cast a Psion spell from the Abjuration or Divination school
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Roll Bonus
+        formula: '@scale.psion.die.die'
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you cast a Psion spell from the Abjuration or Divination school,
+      you can expend one Psionic Energy Die. Roll the die and choose a creature
+      you can see within 60 feet (which can be yourself). Until the end of your
+      next turn, the creature gains a bonus to the next D20 Test it makes equal
+      to the number rolled.</p>
+    chat: ''
+  identifier: bolstering-precognition
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: psionicDiscipline
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679626824
+  modifiedTime: 1759679626824
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionBolsteringP'

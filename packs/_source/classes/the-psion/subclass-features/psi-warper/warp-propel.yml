@@ -1,0 +1,55 @@
+folder: XsuDY1LjR6gMAA5F
+name: Warp Propel
+type: feat
+_id: psionWarpPropel0
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When a target fails its saving throw against your
+      @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplFlingTelep]{Telekinetic
+      Propel}, instead of pushing it, you can teleport the target to an
+      unoccupied space you can see within 30 feet of you that is horizontal to
+      you.</p>
+    chat: ''
+  identifier: warp-propel
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psi Warper
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759707093153
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionWarpPropel0'

@@ -1,0 +1,154 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Mutable Form
+type: feat
+_id: psionMutableForm
+img: icons/magic/unholy/hand-claw-fog-green.webp
+system:
+  activities:
+    F8wBFq5J2dRg0EWU:
+      type: heal
+      _id: F8wBFq5J2dRg0EWU
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: m18PXmZ4BkF9WLIm
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: max(1,@scale.psion.die.die + @abilities.int.mod)
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As a Bonus Action, you can expend one Psionic Energy Die to psionically
+      stretch your limbs for 1 minute. Roll the expended Psionic Energy Die and
+      gain a number of Temporary Hit Points equal to the number rolled plus your
+      Intelligence modifier (minimum of 1 Temporary Hit Point). In addition, you
+      gain the following benefits while this feature is
+      active.</p><p><em><strong>Reach.</strong></em> Your reach increases by 5
+      feet.</p><p><em><strong>Speed.</strong></em> Your Speed increases by 5
+      feet.</p><p><em><strong>Touch.</strong></em> When you cast a spell that
+      has a range of Touch and a casting time of an action, you can make the
+      spell’s range 10 feet.</p>
+    chat: ''
+  identifier: mutable-form
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '7'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Metamorph
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Speed Increase
+    img: icons/magic/unholy/hand-claw-fog-green.webp
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.KU8DPJlFPXaADiMr
+    transfer: false
+    _id: m18PXmZ4BkF9WLIm
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '5'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionMutableForm.m18PXmZ4BkF9WLIm'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705461556
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionMutableForm'

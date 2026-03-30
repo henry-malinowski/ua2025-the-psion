@@ -1,0 +1,54 @@
+folder: XsuDY1LjR6gMAA5F
+name: Teleporter Combat
+type: feat
+_id: psionTeleporterC
+img: icons/magic/movement/trail-streak-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Immediately after you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty
+      Step}, you can cast one of your Psion cantrips that has a casting time of
+      an action as part of the Bonus Action.</p>
+    chat: ''
+  identifier: teleporter-combat
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psi Warper
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759707084138
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionTeleporterC'

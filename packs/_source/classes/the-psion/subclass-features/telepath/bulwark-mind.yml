@@ -1,0 +1,154 @@
+folder: kQHq4I3dNLE5bMGb
+name: Bulwark Mind
+type: feat
+_id: psionBulwarkMind
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp
+system:
+  activities:
+    3qzJcqKvc8VRukim:
+      type: utility
+      name: Activate Bulwark Mind
+      _id: 3qzJcqKvc8VRukim
+      sort: 0
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '10'
+      effects:
+        - _id: KKJyrjHv4xPbC9Rg
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At the start of your turn, you can expend one Psionic Energy Die to
+      strengthen your mind and enter a fortified state. For the next 10 minutes,
+      you have Resistance to Psychic damage; and whenever you make an
+      Intelligence, Wisdom, or Charisma saving throw, you add a roll of your
+      Psionic Energy Die to the save. Rolling the Psionic Energy Die doesn’t
+      expend it. You can’t use this benefit if you have the Incapacitated
+      condition.</p>
+    chat: ''
+  identifier: bulwark-mind
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Telepath
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Psychic resistence and save bonus
+    img: icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp
+    origin: Compendium.ua2025-thepsion.classes.Item.s6rMBAG3vfWTTj8R
+    _id: KKJyrjHv4xPbC9Rg
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.int.bonuses.save
+        mode: 2
+        value: '@scale.psion.die.die'
+      - key: system.abilities.wis.bonuses.save
+        mode: 2
+        value: '@scale.psion.die.die'
+      - key: system.abilities.cha.bonuses.save
+        mode: 2
+        value: '@scale.psion.die.die'
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 600
+      combat: null
+      rounds: 100
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionBulwarkMind.KKJyrjHv4xPbC9Rg'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768932738
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionBulwarkMind'

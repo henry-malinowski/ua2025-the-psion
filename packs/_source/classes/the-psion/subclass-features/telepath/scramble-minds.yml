@@ -1,0 +1,116 @@
+folder: kQHq4I3dNLE5bMGb
+name: Scramble Minds
+type: feat
+_id: psionScrambleMin
+img: icons/magic/symbols/question-stone-yellow.webp
+system:
+  activities:
+    lICqLUtzpdlnhzSU:
+      type: cast
+      _id: lICqLUtzpdlnhzSU
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: >-
+            You can choose 1 creature to automatically succeed on their saving
+            throw against the spell.
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0
+        ability: ''
+        level: 4
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}
+      without expending a spell slot by instead expending four Psionic Energy
+      Dice. When you cast Confusion without a spell slot using this feature, you
+      can modify the spell so that the radius of the spell’s Sphere becomes 30
+      feet and you can choose one creature you can see in the spell’s area to
+      automatically succeed on their saving throw against the spell.</p><p>In
+      addition, when a creature under the effect of the spell starts its turn,
+      you choose their behavior from
+      @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbsplConfusionB]{the
+      table} for the turn instead of the creature rolling to determine its
+      behavior.</p>
+    chat: ''
+  identifier: scramble-minds
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 14
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Telepath
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768965275
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionScrambleMin'

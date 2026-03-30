@@ -1,0 +1,187 @@
+folder: AsQW5rYkhzJGDsOK
+name: Clairsentience
+type: feat
+_id: uapftClairsentie
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  activities:
+    aZViaUujKHDLBx6w:
+      type: utility
+      _id: aZViaUujKHDLBx6w
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Search action
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: null
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Minor Foreknowledge
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof.flat'
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Minor
+      Foreknowledge.</strong></em> When you take the &amp;Reference[Search]
+      action, you can give yourself &amp;Reference[Advantage] on any ability
+      check made as part of that action. You can use this benefit a number of
+      times equal to your Proficiency Bonus, and you regain all expended uses
+      when you finish a Long Rest.</p><p><em><strong>Psionic
+      Talent.</strong></em> You know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guidance}
+      cantrip. You also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect
+      Evil and Good} spell prepared. You can cast it once without a spell slot,
+      and you regain the ability to cast it in that way when you finish a Long
+      Rest. You can also cast it using any spell slots you have of the
+      appropriate level. When you cast these spells, they require no Verbal or
+      Material components, and Intelligence, Wisdom, or Charisma is your
+      spellcasting ability for these spells (choose when you select this
+      feat).</p><p>When you reach character level 3, you also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See
+      Invisibility} spell prepared and can cast it the same way.</p>
+    chat: ''
+  identifier: wild-talent-feat-clairsentience
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '12'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      title: Psionic Talent (Cantrip)
+      _id: ZhZvTQRJtYw94RjA
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Spell)
+      _id: GTAPxirclA94NgcA
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Spell)
+      _id: 8Lz4MdQfVNQSwRtu
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Can’t Have Another Wild Talent Feat
+  type:
+    value: feat
+    subtype: wildTalentFeat
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759774984868
+  modifiedTime: 1759776171207
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapftClairsentie'

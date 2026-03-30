@@ -1,0 +1,162 @@
+folder: hCqZignhKT3tUzdF
+name: Psionic Backlash
+type: feat
+_id: psionPsionicBack
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  activities:
+    AhJwg7fr8hBBPRU2:
+      type: save
+      _id: AhJwg7fr8hBBPRU2
+      sort: 200000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: After reducing damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: The triggering attacker
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+    BJX4qzbrzdqCGagm:
+      type: heal
+      name: Reduce
+      _id: BJX4qzbrzdqCGagm
+      sort: 100000
+      activation:
+        type: reaction
+        override: false
+        condition: Immediately after a creature you can see hits you with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: max(2, 2 * (@scale.psion.die.die + @abilities.int.mod))
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Immediately after a creature you can see hits you with an attack roll,
+      you can take a &amp;Reference[Reaction] to expend one Psionic Energy Die,
+      roll it, and reduce the damage you take from the attack equal to two times
+      the number rolled plus your Intelligence modifier (minimum of two). In
+      addition, you can force the attacker to make a Wisdom saving throw. On a
+      failed save, the target takes Psychic damage equal to the amount of damage
+      you reduced.</p>
+    chat: ''
+  identifier: psionic-backlash
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '5'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 2
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: psionicDiscipline
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679764808
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionPsionicBack'

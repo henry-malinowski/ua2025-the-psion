@@ -1,0 +1,158 @@
+folder: pk6OvHXpkbBPozcQ
+name: Telekenetic Techniques
+type: feat
+_id: psionTelekenetic
+img: icons/magic/air/air-smoke-casting.webp
+system:
+  activities:
+    nC2VJ5vjNzmHm2eL:
+      type: damage
+      _id: nC2VJ5vjNzmHm2eL
+      sort: 200000
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: If the target fails the saving throw
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.psion.die.die'
+            denomination: 0
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+      name: Telekinetic Bolt
+    fJiMgxDvOWdAc2f3:
+      type: utility
+      _id: fJiMgxDvOWdAc2f3
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Free Telekinetic Propel
+        formula: 1d4
+      name: Use (Free roll)
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you use your
+      @UUID[Compendium.ua2025-the-psion.classes.Item.psionPower000000]{Telekinetic
+      Propel}, you can roll 1d4 and use the number rolled instead of expending a
+      Psionic Energy Die.</p><p>In addition, when a target fails the saving
+      throw against your Telekinetic Propel, you can impose one of the following
+      effects on that target.</p><p><em><strong>Boost.</strong></em> The
+      target’s Speed increases by 10 feet until the start of your next
+      turn.</p><p><em><strong>Disorient.</strong></em> The target can’t make
+      Opportunity Attacks until the start of its next
+      turn.</p><p><em><strong>Telekinetic Bolt.</strong></em> The target takes
+      Force damage equal to the number rolled on the Psionic Energy Die.</p>
+    chat: ''
+  identifier: telekenetic-techniques
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psykinetic
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768736221
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionTelekenetic'

@@ -1,0 +1,78 @@
+folder: KWnFjJdpBGthKGPK
+name: Subtle Telekinesis
+type: feat
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Mage
+      Hand} cantrip. You can cast it without &amp;Reference[Somatic]{Somatic}
+      components, and you can make the spectral hand &amp;Reference[Invisible]
+      when you cast it.</p><section class="secret"
+      id="secret-6DX3TtLVm2wNW9B6"><p><strong>Foundry Note</strong></p><p>This
+      spell is granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: subtle-telekinesis
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '3'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      _id: Yl9nc2qQJP1FJYqS
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00
+        optional: false
+        spell:
+          ability:
+            - int
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 1
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Psion
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759678559131
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_id: psionSubtleTelek
+sort: 0
+ownership:
+  default: 0
+_key: '!items!psionSubtleTelek'

@@ -1,0 +1,126 @@
+folder: pk6OvHXpkbBPozcQ
+name: Rebounding Field
+type: feat
+_id: psionReboundingF
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  activities:
+    ddYXfrnFgDq2UBI3:
+      type: save
+      _id: ddYXfrnFgDq2UBI3
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: >-
+          When you cast Shield in response to being hit by an attack roll and
+          cause the triggering attack to miss
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: Also regain the same Temp HP
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.psion.die.die+@abilities.int.mod'
+            denomination: 0
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}
+      in response to being hit by an attack roll and cause the triggering attack
+      to miss, you can expend one Psionic Energy Die to launch the force back at
+      the attacker. The attacker makes a Dexterity saving throw. Roll one
+      Psionic Energy Die. On a failed save, the attacker takes Force damage
+      equal to the amount rolled plus your Intelligence modifier. On a
+      successful save, the attacker takes half as much damage only. Whether the
+      target fails or succeeds on the saving throw, you gain Temporary Hit
+      Points equal to the amount of damage dealt.</p>
+    chat: ''
+  identifier: rebounding-field
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psykinetic
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768717320
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionReboundingF'

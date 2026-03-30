@@ -1,0 +1,73 @@
+name: PDFs
+_id: uaPsionPdfs00000
+pages:
+  - sort: 300000
+    name: UA2025-ThePsion
+    type: pdf
+    _id: VHRBL61m1i9T2RbF
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/ua2025-the-psion/assets/pdfs/UA2025-ThePsion.pdf
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    category: null
+    _key: '!journal.pages!uaPsionPdfs00000.VHRBL61m1i9T2RbF'
+  - sort: 200000
+    name: UA2025-PsionUpdate
+    type: pdf
+    _id: 99frFM41HAndJIBO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/ua2025-the-psion/assets/pdfs/UA2025-PsionUpdate.pdf
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!journal.pages!uaPsionPdfs00000.99frFM41HAndJIBO'
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769758933
+  modifiedTime: 1759769758933
+  lastModifiedBy: dnd5ebuilder0000
+categories: []
+_key: '!journal!uaPsionPdfs00000'

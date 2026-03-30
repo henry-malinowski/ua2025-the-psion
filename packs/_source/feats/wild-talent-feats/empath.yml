@@ -1,0 +1,162 @@
+folder: AsQW5rYkhzJGDsOK
+name: Empath
+type: feat
+_id: uapftEmpath00000
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  activities:
+    t1ExBtmwx4g3nlTf:
+      type: utility
+      _id: t1ExBtmwx4g3nlTf
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Influence action
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: true
+        visible: false
+        name: ''
+        formula: ''
+      name: Emotional Sense
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof.flat'
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Emotional
+      Sense.</strong></em> When you take the Influence action, you can give
+      yourself Advantage on any ability check made as part of that action. You
+      can use this benefit a number of times equal to your Proficiency Bonus,
+      and you regain all expended uses when you finish a Long
+      Rest.</p><p><em><strong>Psionic Talent.</strong></em> You always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm
+      Person} spell prepared. You can cast it once without a spell slot, and you
+      regain the ability to cast it in that way when you finish a Long Rest. You
+      can also cast it using any spell slots you have of the appropriate level.
+      When you cast the spell, it requires no Verbal components, and
+      Intelligence, Wisdom, or Charisma is your spellcasting ability for this
+      spell (choose when you select this feat).</p><p>When you reach character
+      level 3, you also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calm
+      Emotions} spell prepared and can cast it the same way.</p>
+    chat: ''
+  identifier: wild-talent-feat-empath
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '12'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      title: Psionic Talent
+      _id: iTHTRT6FdQ16BsNI
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent
+      _id: DYoGLaqlOXfQpYh9
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Can’t Have Another Wild Talent Feat
+  type:
+    value: feat
+    subtype: wildTalentFeat
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759775083062
+  modifiedTime: 1759776385224
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapftEmpath00000'

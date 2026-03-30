@@ -1,0 +1,188 @@
+folder: fDtXeLXtMAAQtQwF
+name: Life Inversion Field
+type: spell
+_id: uapsplLifeInvers
+img: icons/magic/control/energy-stream-link-orange.webp
+system:
+  activities:
+    slbQeY5hFlLYMRRO:
+      type: heal
+      _id: slbQeY5hFlLYMRRO
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: whole
+        number: 4
+        denomination: 8
+        bonus: ''
+      name: ''
+    yJpIShldkjuwvxsh:
+      type: save
+      _id: yJpIShldkjuwvxsh
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: true
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: true
+              formula: ''
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>An aura radiates from you in a 30-foot Emanation for the duration. When
+      you create the aura, you regain [[/heal]]{4d8 Hit Points}. Whenever you
+      regain Hit Points, you can choose a creature you can see in the aura and
+      force it to make a [[/save]]{Constitution saving throw}. On a failed save,
+      the creature takes Necrotic damage equal to half the amount of Hit Points
+      you regained (round up). A creature makes this save only once per
+      turn.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The
+      healing increase by 1d8 for each spell slot level above 4.</p>
+    chat: ''
+  identifier: life-inversion-field
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '12'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 0
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: self
+    special: ''
+  school: abj
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: radius
+      size: '30'
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769610228
+  modifiedTime: 1759769610228
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapsplLifeInvers'

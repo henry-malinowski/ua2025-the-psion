@@ -1,0 +1,230 @@
+folder: QQL8XR5KOU1YRUOY
+name: Thought Form
+type: spell
+_id: uapsplThoughtFor
+img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+system:
+  activities:
+    aWHUfNNTE0HhAarx:
+      type: utility
+      _id: aWHUfNNTE0HhAarx
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: bMNeUIzRytvAh3Pk
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Assume Transformation
+    1kq0FeMMwQmWkgNE:
+      type: utility
+      name: Psionic Rechage
+      _id: 1kq0FeMMwQmWkgNE
+      sort: 0
+      activation:
+        type: action
+        override: true
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        units: touch
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Regain expended spell slot
+        formula: ceil(1d6 / 2)
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You briefly transform into a psionic spirit. You gain the following
+      benefits until the spell ends.</p><p><em><strong>Ghostly
+      Form.</strong></em> You have Immunity to Poison and Psychic damage, and
+      you have Immunity to the Exhaustion
+      condition.</p><p><em><strong>Incorporeal Movement.</strong></em> You have
+      a Fly Speed of 60 feet and can hover. You can move through occupied spaces
+      as if they were Difficult Terrain. If you end your turn in such a space,
+      you take [[/damage 1d10 Force]] damage. If the spell ends in such a space,
+      you are returned to the last unoccupied space you were
+      in.</p><p><em><strong>Psionic Recharge.</strong></em> As a
+      &amp;Reference[Magic] action, you can touch a creature (which can be
+      yourself) and roll [[/r 1d6]]. The creature regains one expended spell
+      slot, the level of which equals half the number rolled (round up) or
+      lower. Once a creature regains a spell slot from this spell, that creature
+      can’t do so again until it finishes a &amp;Reference[Long Rest].</p>
+    chat: ''
+  identifier: thought-form
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '15'
+    custom: ''
+    license: ''
+  activation:
+    type: bonus
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 6
+  materials:
+    value: brain matter in a vessel worth 500+ GP
+    consumed: false
+    cost: 500
+    supply: 0
+  method: ''
+  prepared: 0
+  properties:
+    - vocal
+    - material
+    - concentration
+  range:
+    units: self
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - name: Thought Form
+    img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: Compendium.ua2025-the-psion.spells.Item.uapsplThoughtFor
+    transfer: false
+    _id: bMNeUIzRytvAh3Pk
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: poison
+      - key: system.traits.di.value
+        mode: 2
+        value: psychic
+      - key: system.traits.ci.value
+        mode: 2
+        value: exhaustion
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '60'
+      - key: system.attributes.movement.hover
+        mode: 5
+        value: 'true'
+      - key: system.attributes.movement.special
+        mode: 2
+        value: Incorporeal Movement
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><em><strong>Ghostly Form.</strong></em> You have Immunity to Poison and
+      Psychic damage, and you have Immunity to the Exhaustion
+      condition.</p><p><em><strong>Incorporeal Movement.</strong></em> You have
+      a Fly Speed of 60 feet and can hover. You can move through occupied spaces
+      as if they were Difficult Terrain. If you end your turn in such a space,
+      you take 1d10 Force damage. If the spell ends in such a space, you are
+      returned to the last unoccupied space you were in.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!uapsplThoughtFor.bMNeUIzRytvAh3Pk'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769660285
+  modifiedTime: 1759775147477
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapsplThoughtFor'

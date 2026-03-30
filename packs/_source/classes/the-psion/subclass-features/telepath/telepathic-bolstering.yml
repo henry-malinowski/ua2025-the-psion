@@ -1,0 +1,108 @@
+folder: kQHq4I3dNLE5bMGb
+name: Telepathic Bolstering
+type: feat
+_id: psionBolsteringT
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  activities:
+    Xvgjj6claNapWCqV:
+      type: utility
+      _id: Xvgjj6claNapWCqV
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: >-
+          When you or a creature you can see within range of your telepathy
+          fails an ability check or misses with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@traits.languages.communication.telepathy.value'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Add to failed check or save
+        formula: '@scale.psion.die.die'
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You have telepathy out to 30 feet. When you or a creature you can see
+      within range of your telepathy fails an ability check or misses with an
+      attack roll, you can take a Reaction to expend one Psionic Energy Die,
+      roll the die, and add the number rolled to the d20, potentially turning a
+      failed check into a success or a miss into a hit. The Psionic Energy Die
+      is expended only if the check succeeds or the attack hits.</p>
+    chat: ''
+  identifier: telepathic-bolstering
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Telepath
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768984780
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionBolsteringT'

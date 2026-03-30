@@ -1,0 +1,587 @@
+folder: TVS9pXbKE0id5sRE
+name: Psion
+type: class
+img: modules/ua2025-the-psion/assets/icons/classes/psion-class.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>A Master of Psionic Power</p></blockquote><h3>Core Psion
+      Traits</h3><table class="core-class-traits"><tbody><tr><th
+      scope="row"><p><strong>Primary
+      Ability</strong></p></th><td><p>Intelligence</p></td></tr><tr><th
+      scope="row"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Psion
+      level</p></td></tr><tr><th scope="row"><p><strong>Saving Throw
+      Proficiencies</strong></p></th><td><p>Intelligence and
+      Wisdom</p></td></tr><tr><th scope="row"><p><strong>Skill
+      Proficiencies</strong></p></th><td><p><em>Choose 2:</em>Arcana, Insight,
+      Intimidation, Investigation, Medicine, Perception,
+      Persuasion</p></td></tr><tr><th scope="row"><p><strong>Weapon
+      Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th
+      scope="row"><p><strong>Armor
+      Training</strong></p></th><td><p>None</p></td></tr><tr><th
+      scope="row"><p><strong>Starting
+      Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
+      @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear},
+      2
+      @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightCross]{Light
+      Crossbow}, 20
+      @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts},
+      @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case},
+      @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers]{Dungeoneer's
+      Pack}, and [[/award 6GP]]; or (B) [[/award
+      50GP]]</p></td></tr></tbody></table><p>Psions weave magic and
+      extraordinary powers through the power of their minds. They develop their
+      minds as fonts of power that manifest spells and grow stronger over the
+      course of their adventuring careers. You can find everything you need to
+      play one of these psionic powerhouses in the next few
+      sections.</p><p></p><h2>Becoming a Psion …</h2><h3>As a Level 1
+      Character</h3><ul><li>Gain all the traits in the Core Psion Traits
+      table.</li><li>Gain the Psion’s level 1 features, which are listed in the
+      @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.iVKn7ZQseEVy3eoX#class-features]{Pison
+      Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain
+      the Hit Point Die from the Core Psion Traits table.</li><li>Gain the
+      Psion’s level 1 features, which are listed in the
+      @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.iVKn7ZQseEVy3eoX#class-features]{Psion
+      Features table}. See the
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
+      rules} in the Player’s Handbook to determine your available spell slots,
+      adding all your Psion levels.</li></ul><aside
+      class="notable"><p><strong>What is a Psion</strong></p><p>Psions are
+      spellcasters who use innate mental powers to gain extraordinary abilities
+      and unleash the magic of their minds. Psions and their magic (sometimes
+      called “psionics”) can trace their history back to the appendix of the
+      first edition Player’s Handbook, and a psionics-using class first appeared
+      in The Complete Psionics Handbook in 1991. Psionics have taken numerous
+      forms in D&amp;D, from alternative magic systems to options that dovetail
+      with other D&amp;D rules. In the fifth edition, psychic power is
+      synonymous with magic, and the magic of the mind flavors numerous spells,
+      monsters, and subclasses—like the Psi Warrior Fighter and the Aberrant
+      Sorcery Sorcerer in the Player’s Handbook. In this edition, the Psion is a
+      spellcaster who interfaces with magic and spellcasting similarly to other
+      classes in the game.</p><p>This UA provides the Psion with unique twists
+      to spellcasting using Psionic Energy Dice and the Psionic Spellcasting
+      feature, carving out a space to make the Psion stand out from its
+      spellcasting peers.</p></aside>
+    chat: ''
+  identifier: psion
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '1'
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: dM4FV2tZ44KtFUG4
+      group: ''
+      sort: 200000
+    - type: linked
+      key: Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000
+      requiresProficiency: false
+      _id: XyYzoVzMiExzfBBu
+      group: dM4FV2tZ44KtFUG4
+      sort: 300000
+    - type: linked
+      count: 2
+      key: Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000
+      requiresProficiency: false
+      _id: AiszomFYJ3P7FQ0M
+      group: dM4FV2tZ44KtFUG4
+      sort: 500000
+    - type: linked
+      key: Compendium.dnd-players-handbook.equipment.Item.phbwepLightCross
+      requiresProficiency: false
+      _id: Hijmxaj6eaM1LFNo
+      group: dM4FV2tZ44KtFUG4
+      sort: 700000
+    - type: linked
+      count: 20
+      key: Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000
+      requiresProficiency: false
+      _id: 2vgxAhX6i85biQaM
+      group: dM4FV2tZ44KtFUG4
+      sort: 900000
+    - type: linked
+      key: Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo
+      requiresProficiency: false
+      _id: 6RtdqJFDtDQfocYP
+      group: dM4FV2tZ44KtFUG4
+      sort: 1100000
+    - type: linked
+      key: Compendium.dnd-players-handbook.equipment.Item.phbagDungeoneers
+      requiresProficiency: false
+      _id: KSV8sZtnh6AasF9I
+      group: dM4FV2tZ44KtFUG4
+      sort: 1300000
+  levels: 1
+  primaryAbility:
+    value:
+      - int
+    all: true
+  hd:
+    additional: ''
+    denomination: d6
+    spent: 0
+  advancement:
+    - type: ScaleValue
+      _id: xC9PUw58zGDqRUkW
+      configuration:
+        identifier: die
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 4
+            faces: 6
+            modifiers: []
+          '5':
+            number: 6
+            faces: 8
+            modifiers: []
+          '9':
+            number: 8
+            faces: 8
+            modifiers: []
+          '11':
+            number: 8
+            faces: 10
+            modifiers: []
+          '13':
+            number: 10
+            faces: 10
+            modifiers: []
+          '17':
+            number: 12
+            faces: 12
+            modifiers: []
+      value: {}
+      title: Psionic Energy Die
+      hint: ''
+    - type: HitPoints
+      _id: O5c3DDOkZHaEHsph
+      configuration: {}
+      value: {}
+    - type: Trait
+      _id: 9Qg1l3u9v8S2YzAL
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - saves:int
+          - saves:wis
+        mode: default
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: Intelligence and Wisdom
+      classRestriction: primary
+    - type: Trait
+      _id: 6t5gM1Sfld5bpzHn
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:arc
+              - skills:ins
+              - skills:itm
+              - skills:inv
+              - skills:med
+              - skills:prc
+              - skills:per
+        grants: []
+        mode: default
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: >-
+        Choose 2: Arcana, Insight, Intimidation, Investigation, Medicine,
+        Perception, Persuasion
+      classRestriction: primary
+    - type: Trait
+      _id: h6vmGQ5eL1banyur
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:sim
+        mode: default
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Proficiencies
+      hint: Simple weapons
+      classRestriction: primary
+    - type: ScaleValue
+      _id: pg4bsHBeEZTOKmSy
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ft
+        scale:
+          '1':
+            value: 2
+          '4':
+            value: 3
+          '10':
+            value: 4
+      value: {}
+      title: Cantrips Known
+      hint: ''
+    - type: ScaleValue
+      _id: J0lakT0Ag820UEGy
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 4
+          '2':
+            value: 5
+          '3':
+            value: 6
+          '4':
+            value: 7
+          '5':
+            value: 9
+          '6':
+            value: 10
+          '7':
+            value: 11
+          '8':
+            value: 12
+          '9':
+            value: 14
+          '10':
+            value: 15
+          '11':
+            value: 16
+          '13':
+            value: 17
+          '15':
+            value: 18
+          '17':
+            value: 19
+          '18':
+            value: 20
+          '19':
+            value: 21
+          '20':
+            value: 22
+      value: {}
+      title: Max Prepared Spells
+      hint: ''
+    - type: Subclass
+      _id: L5HjeyrN3Yb2yEg9
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: Psion Subclass
+      hint: >-
+        You gain a Psion subclass of your choice. The Metamorph, Psykinetic, and
+        Telepath subclasses are detailed after this class’s description. A
+        subclass is a specialization that grants you features at certain Psion
+        levels. For the rest of your career, you gain each of your subclass’s
+        features that are of your Psion level or lower.
+    - type: ItemGrant
+      _id: 9gEOl2m8ZhoV3TDM
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionSpellcastin
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionSubtleTelek
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    - type: ItemChoice
+      _id: 4aYcrcd2Y7x8y9L2
+      configuration:
+        allowDrops: false
+        choices:
+          '2':
+            count: 2
+            replacement: true
+          '3':
+            replacement: true
+          '4':
+            replacement: true
+          '5':
+            count: 1
+            replacement: true
+          '6':
+            replacement: true
+          '7':
+            replacement: true
+          '8':
+            replacement: true
+          '9':
+            replacement: true
+          '10':
+            count: 1
+            replacement: true
+          '11':
+            replacement: true
+          '12':
+            replacement: true
+          '13':
+            count: 1
+            replacement: true
+          '14':
+            replacement: true
+          '15':
+            replacement: true
+          '16':
+            replacement: true
+          '17':
+            count: 1
+            replacement: true
+          '18':
+            replacement: true
+          '19':
+            replacement: true
+          '20':
+            replacement: true
+        pool:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionBiofeedback
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionBolsteringP
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionThoughsDest
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionDevilishTon
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionExpandedAwa
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionIdInsinuati
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionInerrantAim
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionObservantMi
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionPsionicBack
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionPsionicGuar
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionSharpenedMi
+        spell: null
+        type: feat
+        restriction:
+          type: class
+          subtype: psionicDiscipline
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Psionic Discipline
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: 1PfAATXm6oP8DRq2
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: RPc2cjzgA4xNgxcQ
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: YGKZ8cgWv4Qa5lzj
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: b7sb8G9YUwmjiiQa
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: eS5RXEsAWDNwqbP3
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionSurge000000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    - type: ItemGrant
+      _id: vEdt3IR5QlvOzKUa
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionRestoration
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    - type: ItemGrant
+      _id: 57qiUFsvwZJB3tul
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionDiscipline0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    - type: ItemGrant
+      _id: U0aa3mRpAdOl7i8b
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionEnkindledLi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+    - _id: NhwxVhPVWftAEgPi
+      type: ItemChoice
+      configuration:
+        choices:
+          '19':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofCombatP
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofFortitu
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofIrresis
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofRecover
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofSkill00
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofSpeed00
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofSpellRe
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonoftheNigh
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbBoonofTruesig
+        spell: null
+        restriction:
+          type: feat
+          subtype: ''
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Epic Boon
+      hint: >-
+        You gain an Epic Boon feat or another feat of your choice for which you
+        qualify. Boon of Energy Resistance is recommended.
+    - _id: xu1pMB5cDyCvrU6Z
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.classes.Item.phbwzdEpicBoon00
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 19
+      title: Class Features
+    - type: ItemGrant
+      title: Class Features
+      _id: r6aTnqAk6vGh4uVp
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionReserves000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+  spellcasting:
+    progression: full
+    preparation:
+      formula: '@scale.psion.max-prepared'
+    ability: int
+  wealth: '50'
+  properties: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679883480
+  modifiedTime: 1760227020693
+  lastModifiedBy: dnd5ebuilder0000
+_id: psionBaseClass00
+sort: 0
+ownership:
+  default: 0
+_key: '!items!psionBaseClass00'

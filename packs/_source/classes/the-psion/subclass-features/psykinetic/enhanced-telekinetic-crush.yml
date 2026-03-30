@@ -1,0 +1,283 @@
+folder: pk6OvHXpkbBPozcQ
+name: Enhanced Telekinetic Crush
+type: feat
+_id: psionEnhancedTel
+img: icons/magic/control/silhouette-fall-slip-prone.webp
+system:
+  activities:
+    9k9NlWTr3pFhzefS:
+      type: enchant
+      name: Modify Spell
+      _id: 9k9NlWTr3pFhzefS
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Wi3qar0jxDWMiVti
+          level: {}
+          riders:
+            activity:
+              - 5U6iu2Ey9orsyqJ2
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+    5U6iu2Ey9orsyqJ2:
+      type: save
+      name: Enhanced Telekinetic Crush
+      _id: 5U6iu2Ey9orsyqJ2
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: oklSIbsKVRX3NWgz
+          onSave: true
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+          - custom:
+              enabled: true
+              formula: '@scale.psion.die.die'
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplCrushTelek]{Telekinetic
+      Crush}, you can expend one Psionic Energy Die to modify the spell so that
+      whether a creature fails or succeeds on the saving throw against the
+      spell, its Speed is halved until the start of your next turn. In addition,
+      you can roll the expended Psionic Energy Die and add the number rolled to
+      one damage roll of the spell.</p>
+    chat: ''
+  identifier: enhanced-telekinetic-crush
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psykinetic
+  type:
+    value: class
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Enhanced Telekinetic Crush
+    img: icons/magic/control/silhouette-fall-slip-prone.webp
+    disabled: true
+    _id: Wi3qar0jxDWMiVti
+    system: {}
+    changes:
+      - key: name
+        mode: 5
+        value: Enhanced Telekinetic Crush
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionEnhancedTel.Wi3qar0jxDWMiVti'
+  - name: Speed Halved
+    img: icons/magic/control/silhouette-fall-slip-prone.webp
+    origin: Compendium.ua2025-the-psion.classes.Item.psionEnhancedTel
+    transfer: false
+    _id: oklSIbsKVRX3NWgz
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.burrow
+        mode: 1
+        value: '0.5'
+      - key: system.attributes.movement.climb
+        mode: 1
+        value: '0.5'
+      - key: system.attributes.movement.fly
+        mode: 1
+        value: '0.5'
+      - key: system.attributes.movement.swim
+        mode: 1
+        value: '0.5'
+      - key: system.attributes.movement.walk
+        mode: 1
+        value: '0.5'
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionEnhancedTel.oklSIbsKVRX3NWgz'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - 5U6iu2Ey9orsyqJ2
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768675620
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionEnhancedTel'

@@ -1,0 +1,208 @@
+folder: pk6OvHXpkbBPozcQ
+name: Destructive Trance
+type: feat
+_id: psionTranceDestr
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  activities:
+    tBspseQIbwboVGSr:
+      type: damage
+      _id: tBspseQIbwboVGSr
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.psion.die.die'
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              number: 1
+      name: ''
+    2tpyRMQ5rs0n1NlB:
+      type: utility
+      name: Enter Trance
+      _id: 2tpyRMQ5rs0n1NlB
+      sort: 0
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: eMXH7g624vb4D5g6
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At the start of your turn, you can expend one Psionic Energy Die to
+      enter a destructive state. For the next 10 minutes, you gain a
+      &amp;Reference[Flying]{Fly} Speed of 20 feet and can hover, and when you
+      cast a Psion spell that expends a spell slot, you can roll your Psionic
+      Energy Die and add the number rolled to one damage roll of that spell.
+      This roll doesn’t expend the Psionic Energy Die.</p>
+    chat: ''
+  identifier: destructive-trance
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psykinetic
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Empowered Attack Mode
+    img: icons/skills/movement/arrow-upward-yellow.webp
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.2u29XF7sEloxZQuV
+    _id: eMXH7g624vb4D5g6
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '20'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionTranceDestr.eMXH7g624vb4D5g6'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768629085
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionTranceDestr'

@@ -1,0 +1,197 @@
+folder: 1yeaplyHrO6wWUun
+name: Life Siphon
+type: spell
+_id: uapsplLifeSiphon
+img: icons/magic/unholy/projectile-bullet-orb-pink.webp
+system:
+  activities:
+    0XdEEf94irYs4TxM:
+      type: attack
+      _id: 0XdEEf94irYs4TxM
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+    r6GZpfB9Oq4zFTke:
+      type: damage
+      name: Extra Damage (spend HD)
+      _id: r6GZpfB9Oq4zFTke
+      sort: 0
+      activation:
+        type: special
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets:
+          - type: hitDice
+            value: '1'
+            target: smallest
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scaling)d10
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You fire an orb of psionic energy fueled by your life force at a
+      creature you can see within range. Make a ranged spell attack against the
+      target. On a hit, the target takes 1d10 Psychic damage and you can expend
+      one Hit Point Die to increase the damage by 1d10.</p><p><em><strong>Using
+      a Higher-Level Spell Slot.</strong></em> The damage increases by 1d10 and
+      the number of Hit Dice you can expend increases by one for each spell slot
+      level above 1.</p><section class="secret"
+      id="secret-89EYIN4GcUBd9Ypn"><p><strong>Foundry Note</strong></p><p>Due to
+      technical limitations, expending hit dice must be done as a sperate
+      activity. When using the <strong>Damage</strong> activity, select the
+      level such that you are expending the number of hit die you wish to use.
+      These should be considered the same instance of damage. This activity does
+      not expend spellslots.</p></section>
+    chat: ''
+  identifier: life-siphon
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '12'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 0
+  properties:
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '120'
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: '1'
+      special: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769482604
+  modifiedTime: 1759775147477
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapsplLifeSiphon'

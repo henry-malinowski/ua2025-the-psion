@@ -1,0 +1,141 @@
+folder: 2puiC2mpXKQfggOs
+name: Telekinetic Fling
+type: spell
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+system:
+  activities:
+    EYGRMmMzaLMYIBmT:
+      type: attack
+      _id: EYGRMmMzaLMYIBmT
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Choose one nonmagical object weighing 1 to 5 pounds within 10 feet of
+      you that isn’t being worn or carried to wreathe in psionic energy and fire
+      at a creature within range. Make a ranged spell attack against the target.
+      On a hit, the target takes [[/damage]] damage. On a hit or miss, the
+      object falls to the ground undamaged.</p><p><em><strong>Cantrip
+      Upgrade.</strong></em> The damage increases by 1d10 when you reach levels
+      5 (2d10), 11 (3d10), and 17 (4d10).</p>
+    chat: ''
+  identifier: telekinetic-fling
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '15'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: inst
+  level: 0
+  materials:
+    value: an Arrow, Bolt, Bullet, or Needle worth at least 1 CP
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: '1'
+      special: ''
+  method: ''
+  prepared: 0
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769471651
+  modifiedTime: 1759775147477
+  lastModifiedBy: dnd5ebuilder0000
+_id: uapsplFlingTelep
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!uapsplFlingTelep'

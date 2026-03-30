@@ -1,0 +1,185 @@
+folder: TVS9pXbKE0id5sRE
+name: Psykinetic
+type: subclass
+_id: psionSubPsykinet
+img: modules/ua2025-the-psion/assets/icons/classes/psion-psykinetic.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Mold Psionic Force for Creation and
+      Destruction</p></blockquote><p>A Psykinetic controls their psionic powers
+      like a malleable force. They bend their telekinetic energies into sturdy
+      barriers and strike with the force of a battering ram.</p>
+    chat: ''
+  identifier: psykinetic
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      _id: FkMzgoHW5oKUzTyD
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionPsykineticS
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionTelekenetic
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionStrongerTel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: Hjsd8u4ICTUm50X9
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionTranceDestr
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionReboundingF
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 434rV35hci2fCRA6
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionEnhancedTel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: ZgUyQSlh9iPltMKu
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionHeightenedT
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: Azv4iiwa0z1xYIJv
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCloudofDag
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Psykinetic Spells
+      hint: ''
+    - type: ItemGrant
+      _id: EibFJiR9VSyQ182v
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.spells.Item.uapsplCrushTelek
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Psykinetic Spells
+      hint: ''
+    - type: ItemGrant
+      _id: kE4lXeL0MbDf29u5
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Psykinetic Spells
+      hint: ''
+    - type: ItemGrant
+      _id: C8OWf3Kac79uBen7
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Psykinetic Spells
+      hint: ''
+  classIdentifier: psion
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679927621
+  modifiedTime: 1759769599362
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionSubPsykinet'

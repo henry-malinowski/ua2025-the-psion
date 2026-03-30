@@ -1,0 +1,19 @@
+name: 2nd Level
+sorting: a
+folder: null
+type: Item
+_id: PNkpxKtzdM2HkQLR
+description: ''
+sort: 300000
+color: '#926fac'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: 1749440056303
+  modifiedTime: 1759434935127
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!PNkpxKtzdM2HkQLR'

@@ -1,0 +1,658 @@
+name: Spell lists
+_id: uaPsionSpellList
+pages:
+  - sort: 0
+    name: Psion
+    type: spells
+    _id: vXHK4WdDQJJl0e9i
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplFlingTelep
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFriends000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLight00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMending000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMessage000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTrueStrike
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCommand000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplComprehend
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal
+        - Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplJump000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLongstride
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTashasHide
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTensersFlo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEnthrall00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson
+        - Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili
+        - Compendium.dnd-players-handbook.spells.Item.phbsplKnock00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLocateAnim
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLocateObje
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMagicMouth
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag
+        - Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+        - Compendium.dnd-players-handbook.spells.Item.phbsplShatter000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSilence000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion
+        - Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs
+        - Compendium.dnd-players-handbook.spells.Item.phbsplClairvoyan
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFear000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa
+        - Compendium.ua2025-the-psion.spells.Item.uapsplIntellectF
+        - Compendium.ua2025-the-psion.spells.Item.uapsplSummonAstr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplCrushTelek
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage
+        - Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSending000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTongues000
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicLan
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicScr
+        - Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBanishment
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion
+        - Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM
+        - Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLocateCrea
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAwaken0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplContactOth
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDream00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplGeas000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMislead000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplRarysTelep
+        - Compendium.dnd-players-handbook.spells.Item.phbsplScrying000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTeleportat
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBladeBarri
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEyebite000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFindthePat
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMassSugges
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMoveEarth0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplOttosIrres
+        - Compendium.dnd-players-handbook.spells.Item.phbsplProgrammed
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTrueSeeing
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEtherealne
+        - Compendium.dnd-players-handbook.spells.Item.phbsplForcecage0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMirageArca
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordF
+        - Compendium.dnd-players-handbook.spells.Item.phbsplProjectIma
+        - Compendium.dnd-players-handbook.spells.Item.phbsplReverseGra
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAntipathyS
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBefuddleme
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDominateMo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplGlibness00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMaze000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMindBlank0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordS
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTelepathy0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAstralProj
+        - Compendium.dnd-players-handbook.spells.Item.phbsplForesight0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK
+        - Compendium.dnd-players-handbook.spells.Item.phbsplShapechang
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTimeStop00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplWeird00000
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMindWhip00
+        - Compendium.ua2025-the-psion.spells.Item.uapsplLifeSiphon
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEctoplasmi
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEgoWhip000
+        - Compendium.ua2025-the-psion.spells.Item.uapsplBleedingDa
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEnemiesAbo
+        - Compendium.ua2025-the-psion.spells.Item.uapsplLifeInvers
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMentalPris
+        - Compendium.ua2025-the-psion.spells.Item.uapsplThoughtFor
+        - Compendium.ua2025-the-psion.spells.Item.uapsplHorridWilt
+        - Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav
+        - Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+        - Compendium.dnd-players-handbook.spells.Item.phbSanctuary0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsionicBla
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAntimagicF
+      unlinkedSpells: []
+      identifier: psion
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778645108
+    category: gONTosG27QF9nt83
+    _key: '!journal.pages!uaPsionSpellList.vXHK4WdDQJJl0e9i'
+  - sort: -131250
+    name: Artificer
+    type: spells
+    _id: 7d7E2KgEhx5IN9Ox
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplIntellectF
+      unlinkedSpells: []
+      identifier: artificer
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778633413
+    category: gONTosG27QF9nt83
+    _key: '!journal.pages!uaPsionSpellList.7d7E2KgEhx5IN9Ox'
+  - sort: -31250
+    name: Bard
+    type: spells
+    _id: brgT1ikfVvidcu2e
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplIntellectF
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicScr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicLan
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEnemiesAbo
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMentalPris
+      unlinkedSpells: []
+      identifier: bard
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778636654
+    category: gONTosG27QF9nt83
+    _key: '!journal.pages!uaPsionSpellList.brgT1ikfVvidcu2e'
+  - sort: 300000
+    name: Sorcerer
+    type: spells
+    _id: gawcl4POj0OqtkP8
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplHorridWilt
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEnemiesAbo
+        - Compendium.ua2025-the-psion.spells.Item.uapsplIntellectF
+        - Compendium.ua2025-the-psion.spells.Item.uapsplLifeInvers
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMentalPris
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicScr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicLan
+        - Compendium.ua2025-the-psion.spells.Item.uapsplSummonAstr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMindWhip00
+        - Compendium.ua2025-the-psion.spells.Item.uapsplCrushTelek
+      unlinkedSpells: []
+      identifier: sorcerer
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778648311
+    category: gONTosG27QF9nt83
+    _key: '!journal.pages!uaPsionSpellList.gawcl4POj0OqtkP8'
+  - sort: 400000
+    name: Warlock
+    type: spells
+    _id: NVLCcwVALYGdKeLz
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplBleedingDa
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEctoplasmi
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEnemiesAbo
+        - Compendium.ua2025-the-psion.spells.Item.uapsplIntellectF
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicLan
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicScr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplSummonAstr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplCrushTelek
+      unlinkedSpells: []
+      identifier: warlock
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778651434
+    category: gONTosG27QF9nt83
+    _key: '!journal.pages!uaPsionSpellList.NVLCcwVALYGdKeLz'
+  - sort: 500000
+    name: Wizard
+    type: spells
+    _id: eXDhyUEVWPc3jWPl
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplHorridWilt
+        - Compendium.ua2025-the-psion.spells.Item.uapsplBleedingDa
+        - Compendium.ua2025-the-psion.spells.Item.uapsplEnemiesAbo
+        - Compendium.ua2025-the-psion.spells.Item.uapsplIntellectF
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMentalPris
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsionicBla
+        - Compendium.ua2025-the-psion.spells.Item.uapsplPsychicLan
+        - Compendium.ua2025-the-psion.spells.Item.uapsplSummonAstr
+        - Compendium.ua2025-the-psion.spells.Item.uapsplMindWhip00
+      unlinkedSpells: []
+      identifier: wizard
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778654638
+    category: gONTosG27QF9nt83
+    _key: '!journal.pages!uaPsionSpellList.eXDhyUEVWPc3jWPl'
+  - sort: -25000
+    name: Cleric
+    type: spells
+    _id: 8U2Ipa2yPabwqBva
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.ua2025-the-psion.spells.Item.uapsplLifeInvers
+      unlinkedSpells: []
+      identifier: cleric
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: gONTosG27QF9nt83
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1759778639804
+    _key: '!journal.pages!uaPsionSpellList.8U2Ipa2yPabwqBva'
+  - sort: 600000
+    name: Metamorph
+    type: spells
+    category: L8fnTN8obYRf9e82
+    _id: lCrh2xQupgGVKcy5
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds
+        - Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest
+        - Compendium.dnd-players-handbook.spells.Item.phbsplAuraofVita
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo
+      unlinkedSpells: []
+      identifier: metamorph
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759778672519
+      modifiedTime: 1759778721735
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionSpellList.lCrh2xQupgGVKcy5'
+  - sort: 700000
+    name: Psiwarper
+    type: spells
+    category: L8fnTN8obYRf9e82
+    _id: rnVl1K4HTC88hQei
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplExpeditiou
+        - Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplShatter000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBanishment
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTeleportat
+      unlinkedSpells: []
+      identifier: psi-warper
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759778753137
+      modifiedTime: 1759778781547
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionSpellList.rnVl1K4HTC88hQei'
+  - sort: 800000
+    name: Psykinetic
+    type: spells
+    category: L8fnTN8obYRf9e82
+    _id: nti7O0hRbls3dqkO
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCloudofDag
+        - Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00
+        - Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+        - Compendium.ua2025-the-psion.spells.Item.uapsplCrushTelek
+        - Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe
+        - Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape
+        - Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi
+        - Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc
+      unlinkedSpells: []
+      identifier: psykinetic
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759778798797
+      modifiedTime: 1759778827234
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionSpellList.nti7O0hRbls3dqkO'
+  - sort: 900000
+    name: Telepath
+    type: spells
+    category: L8fnTN8obYRf9e82
+    _id: zRhuWZg5a2TDFynn
+    system:
+      type: subclass
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCommand000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou
+        - Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion
+        - Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0
+        - Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo
+        - Compendium.dnd-players-handbook.spells.Item.phbsplYolandesRe
+      unlinkedSpells: []
+      identifier: telepath
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759778841028
+      modifiedTime: 1759778867058
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!journal.pages!uaPsionSpellList.zRhuWZg5a2TDFynn'
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    locked: true
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769728988
+  modifiedTime: 1774907657965
+  lastModifiedBy: dnd5ebuilder0000
+categories:
+  - name: Classes
+    sort: 100000
+    _id: gONTosG27QF9nt83
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759778612849
+      modifiedTime: 1759778612849
+      lastModifiedBy: AxKaKQOQoBx4LYP2
+    _key: '!journal.categories!uaPsionSpellList.gONTosG27QF9nt83'
+  - name: Psion Subclasses
+    sort: 200000
+    _id: L8fnTN8obYRf9e82
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759778612980
+      modifiedTime: 1759778612980
+      lastModifiedBy: AxKaKQOQoBx4LYP2
+    _key: '!journal.categories!uaPsionSpellList.L8fnTN8obYRf9e82'
+_key: '!journal!uaPsionSpellList'

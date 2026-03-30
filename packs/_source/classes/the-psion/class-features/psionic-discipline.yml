@@ -1,0 +1,67 @@
+folder: KWnFjJdpBGthKGPK
+name: Psionic Discipline
+type: feat
+_id: psionDiscipline0
+img: icons/skills/ranged/tracers-triple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You learn further psionic techniques that are fueled by your Psionic
+      Energy Dice. You gain two disciplines of your choice, such as
+      @UUID[Compendium.ua2025-the-psion.classes.Item.psionExpandedAwa]{Expanded
+      Awareness} and
+      @UUID[Compendium.ua2025-the-psion.classes.Item.psionIdInsinuati]{Id
+      Insinuation}. Disciplines are described in the
+      “@UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionClassDocs.JournalEntryPage.GVieisk8o3M1B6s8]{Psionic
+      Discipline Options}” section later in this class’s description.</p><p>You
+      can use only one Discipline each turn and only once per turn unless
+      otherwise noted in one of those options.</p><p>Whenever you gain a Psion
+      level, you can replace one of your Psionic Discipline options with one you
+      don’t know. You gain one additional option at Psion levels 5, 10, 13, and
+      17.</p><section class="secret"
+      id="secret-ryXiZ06ntjyLEnSq"><p><strong>Foundry Note</strong></p><p>These
+      disciplines are granted automatically as you advance and can be switched
+      once per Psion level.</p></section>
+    chat: ''
+  identifier: psionic-discipline
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '3'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 2
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Psion
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759678484468
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionDiscipline0'

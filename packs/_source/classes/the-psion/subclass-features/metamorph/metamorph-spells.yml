@@ -1,0 +1,69 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Metamorph Spells
+type: feat
+_id: psionMetamorphSp
+img: icons/magic/acid/projectiles-trio-salvo.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you reach a Psion level specified in the Metamorph Spells table,
+      you thereafter always have the listed spells
+      prepared.</p><table><caption>Metamorph
+      Spells</caption><thead><tr><td>Psion
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter
+      Self},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure
+      Wounds},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict
+      Wounds},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser
+      Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofVita]{Aura
+      of Vitality},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polymorph},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{Contagion},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass
+      Cure Wounds}</td></tr></tbody></table><section class="secret"
+      id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: metamorph-spellcasting
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '7'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Metamorph
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705451576
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionMetamorphSp'

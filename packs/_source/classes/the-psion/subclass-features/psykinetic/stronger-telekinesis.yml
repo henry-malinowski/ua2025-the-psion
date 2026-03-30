@@ -1,0 +1,52 @@
+folder: pk6OvHXpkbBPozcQ
+name: Stronger Telekinesis
+type: feat
+_id: psionStrongerTel
+img: icons/magic/light/orb-container-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you cast Mage Hand, its range increases by 30 feet when you cast
+      it, and the hand can carry up to 20 pounds.</p>
+    chat: ''
+  identifier: stronger-telekinesis
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Psykinetic
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768726970
+  modifiedTime: 1759768726970
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionStrongerTel'

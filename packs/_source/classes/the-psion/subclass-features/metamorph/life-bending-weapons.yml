@@ -1,0 +1,217 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Life-Bending Weapons
+type: feat
+_id: psionLifeBending
+img: icons/magic/unholy/projectile-spear-glow-pink.webp
+system:
+  activities:
+    CmX0nUGMjst7VHUe:
+      type: heal
+      name: Heal (Life Bending Weapon)
+      _id: CmX0nUGMjst7VHUe
+      sort: 100000
+      activation:
+        type: special
+        override: false
+        condition: When you hit a creature with your Organic Weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@abilities.int.mod'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+    Djprn8L1qz1MtvOx:
+      type: enchant
+      _id: Djprn8L1qz1MtvOx
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you hit a creature with your organic weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Jlh4gxXxwxKSxvBR
+          level: {}
+          riders:
+            activity:
+              - CmX0nUGMjst7VHUe
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories:
+          - simpleM
+          - simpleR
+        properties: []
+        type: weapon
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your weapon becomes wreathed in negative energy, and you radiate
+      life-mending psionic energy. When you hit a target with an attack roll
+      using your
+      @UUID[Compendium.ua2025-the-psion.classes.Item.psionOrganicWeap]{Organic
+      Weapon}, roll one Psionic Energy Die. The target takes extra Necrotic
+      damage equal to the number rolled. This roll doesn’t expend the
+      die.</p><p>Alternatively, when you hit a creature with your Organic
+      Weapon, you can instead expend one Psionic Energy Die and roll it. The
+      target takes extra Necrotic damage equal to the roll, and each creature of
+      your choice in a 30-foot Emanation originating from you regains Hit Points
+      equal the number rolled plus your Intelligence modifier. Once you use this
+      feature, you can’t do so again until the start of your next turn.</p>
+    chat: ''
+  identifier: life-bending-weapons
+  source:
+    revision: 1
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 14
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Metamorph
+  type:
+    value: class
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Life-Bending Weapons
+    img: icons/magic/unholy/projectile-spear-glow-pink.webp
+    disabled: true
+    _id: Jlh4gxXxwxKSxvBR
+    system: {}
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["@scale.psion.die.die", "necrotic"]]'
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionLifeBending.Jlh4gxXxwxKSxvBR'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - CmX0nUGMjst7VHUe
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705434208
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionLifeBending'

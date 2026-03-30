@@ -1,0 +1,186 @@
+folder: TVS9pXbKE0id5sRE
+name: Telepath
+type: subclass
+_id: psionSubTelepath
+img: modules/ua2025-the-psion/assets/icons/classes/psion-telepath.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Master Tactics in the Landscape of the
+      Mind</p></blockquote><p>Telepaths are masters of mind magic. They use
+      their psionic powers for all matters of the mind, whether they bolster the
+      mental defenses of allies or probe the thoughts of others undetected. A
+      telepath can be a bastion of psionic aid or a crafty manipulator.</p>
+    chat: ''
+  identifier: telepath
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '10'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      _id: PgnfUV7nFde05uEp
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionTelepathSpe
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionMindInfiltr
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionDistraction
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: Gdvg231rftqiYTr2
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionBulwarkMind
+            optional: false
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionPotentThoug
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: a4yMHBKkJ2eMvSQd
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionBolsteringT
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 9KL2DvFg0DAkb3um
+      configuration:
+        items:
+          - uuid: Compendium.ua2025-the-psion.classes.Item.psionScrambleMin
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: utGkpQVJy76T4PMZ
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCommand000
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Telepath Spells
+      hint: ''
+    - type: ItemGrant
+      _id: BqGGh3hoFJeX184B
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithP
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Telepath Spells
+      hint: ''
+    - type: ItemGrant
+      _id: TW8FFbIZnjGlwlP0
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Telepath Spells
+      hint: ''
+    - type: ItemGrant
+      _id: z1Tj6RXPLOAN2Owe
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAwaken0000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Telepath Spells
+      hint: ''
+  classIdentifier: psion
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679965109
+  modifiedTime: 1759768993951
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionSubTelepath'

@@ -1,0 +1,139 @@
+folder: qzQI8WtdRAV4CbSp
+name: Psychic Scream
+type: spell
+img: icons/magic/death/skull-humanoid-worn-teal.webp
+system:
+  activities:
+    kASXY8BX8gt81A1T:
+      type: save
+      _id: kASXY8BX8gt81A1T
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '10'
+          special: >-
+            Creatures that have an Intelligence score of 2 or lower are
+            unaffected.
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 14
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You unleash the power of your mind to blast the intellect of up to ten
+      creatures of your choice that you can see within range. Creatures that
+      have an Intelligence score of 2 or lower are unaffected.</p><p>Each target
+      must make an Intelligence saving throw. On a failed save, a target takes
+      [[/damage]] damage and has the &amp;Reference[Stunned] condition. On a
+      successful save, a target takes half as much damage only. If the target is
+      reduced to 0 Hit Points by this damage, its head explodes, assuming it has
+      one.</p><p>At the end of each of its turns, the Stunned target repeats the
+      save, ending the condition on itself on a success.</p>
+    chat: ''
+  identifier: psychic-scream
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '13'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: inst
+  level: 9
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '90'
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+  method: spell
+  prepared: 0
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759769682182
+  modifiedTime: 1759775147477
+  lastModifiedBy: dnd5ebuilder0000
+_id: uapsplPsychicScr
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!uapsplPsychicScr'

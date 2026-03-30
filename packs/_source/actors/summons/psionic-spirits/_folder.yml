@@ -1,0 +1,18 @@
+name: Psionic Spirits
+sorting: a
+folder: fIWxsZl4BR66yVIm
+type: Actor
+_id: 5CZoevnSRup0shhQ
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!5CZoevnSRup0shhQ'

@@ -1,0 +1,135 @@
+folder: AsQW5rYkhzJGDsOK
+name: Atmokinesis
+type: feat
+img: icons/magic/lightning/orb-ball-spiral-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: ''
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Lightning
+      Jolt.</strong></em> Once per turn when you cast a spell or hit with an
+      attack roll and deal Bludgeoning, Piercing, Slashing, or Psychic damage,
+      you can change the damage type to Lightning
+      damage.</p><p><em><strong>Psionic Talent.</strong></em> You know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr]{Shocking
+      Grasp} cantrip. You also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Fog
+      Cloud} spell prepared. You can cast it once without a spell slot, and you
+      regain the ability to cast it in that way when you finish a Long Rest. You
+      can also cast it using any spell slots you have of the appropriate level.
+      When you cast these spells, they require no Verbal or Material components,
+      and Intelligence, Wisdom, or Charisma is your spellcasting ability for
+      them (choose when you select this feat).</p><p>When you reach character
+      level 3, you also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust
+      of Wind} spell prepared and can cast it the same way.</p>
+    chat: ''
+  identifier: wild-talent-feat-atmokinesis
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '11'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      title: Psionic Talent (Cantrip)
+      _id: 1Eedl7oHg5EH2hIE
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Spell)
+      _id: KmdhWJ2JWnAN1yY7
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Spell)
+      _id: Ptjol5s2qLToa8zc
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Can’t Have Another Wild Talent Feat
+  type:
+    value: feat
+    subtype: wildTalentFeat
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759774957214
+  modifiedTime: 1759776129420
+  lastModifiedBy: dnd5ebuilder0000
+_id: uapftAtmokinesis
+sort: 0
+ownership:
+  default: 0
+_key: '!items!uapftAtmokinesis'

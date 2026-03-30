@@ -1,0 +1,55 @@
+folder: 1lKRwmeYWXNoMbc4
+name: Extra Attack
+type: feat
+_id: psionMetaExtraAt
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can attack twice instead of once whenever you take the Attack
+      action on your turn.</p><p>In addition, you can cast one of your Psion
+      cantrips that has a casting time of an action in place of one of those
+      attacks.</p>
+    chat: ''
+  identifier: metamorph-extra-attack
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '8'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Metamorph
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759705390705
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionMetaExtraAt'

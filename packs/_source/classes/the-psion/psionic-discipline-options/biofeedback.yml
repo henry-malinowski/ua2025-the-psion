@@ -1,0 +1,120 @@
+folder: hCqZignhKT3tUzdF
+name: Biofeedback
+type: feat
+img: icons/magic/death/hand-withered-gray.webp
+system:
+  activities:
+    Ml94PcWeVjWJN47k:
+      type: heal
+      _id: Ml94PcWeVjWJN47k
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you cast a spell from the Necromancy or Transmutation schools
+      consumption:
+        scaling:
+          allowed: true
+          max: max(0,@abilities.int.mod)
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: 0
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scaling@scale.psion.die.die + max(1,@abilities.int.mod)'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast a Psion spell from the
+      @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.vXHK4WdDQJJl0e9i#necromancy]{Necromancy}
+      or
+      @UUID[Compendium.ua2025-the-psion.content.JournalEntry.uaPsionSpellList.JournalEntryPage.vXHK4WdDQJJl0e9i#transmutation]{Transmutation}
+      school, you can expend a number of Psionic Energy Dice up to your
+      Intelligence modifier, roll them, and gain a number of Temporary Hit
+      Points equal to the total number rolled plus your Intelligence modifier
+      (minimum of one).</p>
+    chat: ''
+  identifier: discipline-biofeedback
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '4'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 2
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: psionicDiscipline
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679615730
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_id: psionBiofeedback
+sort: 0
+ownership:
+  default: 0
+_key: '!items!psionBiofeedback'

@@ -1,0 +1,108 @@
+folder: pk6OvHXpkbBPozcQ
+name: Heightened Telekineses
+type: feat
+_id: psionHeightenedT
+img: icons/magic/unholy/hand-grasping-green.webp
+system:
+  activities:
+    VKTBqKhSxXGt8Yi4:
+      type: cast
+      _id: VKTBqKhSxXGt8Yi4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: 5
+        properties:
+          - concentration
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi
+        ability: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{Telekinesis},
+      you can expend four Psionic Energy Dice to modify the spell so that it
+      doesn’t require Concentration. If you do so, the spell’s duration becomes
+      1 minute for that casting, and you can target Gargantuan creatures and
+      objects.</p>
+    chat: ''
+  identifier: heightened-telekineses
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '9'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 14
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Psykinetic
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759768691635
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionHeightenedT'

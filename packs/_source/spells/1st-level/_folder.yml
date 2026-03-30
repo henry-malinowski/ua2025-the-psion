@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: 1st Level
+color: '#a27ebc'
+sorting: a
+_id: 1yeaplyHrO6wWUun
+description: ''
+sort: 200000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759434900399
+  modifiedTime: 1759434935127
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!folders!1yeaplyHrO6wWUun'

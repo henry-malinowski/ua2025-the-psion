@@ -1,0 +1,201 @@
+folder: AsQW5rYkhzJGDsOK
+name: Psykineticist
+type: feat
+_id: uapftPsykinetici
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  activities:
+    8fuy7EUznm7sQqXM:
+      type: utility
+      _id: 8fuy7EUznm7sQqXM
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Dash Action
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: qW15gV5acL1xsQhZ
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Psi Boost
+      img: ''
+      appliedEffects:
+        - qW15gV5acL1xsQhZ
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof.flat'
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Psi
+      Boost.</strong></em> When you take the &amp;Reference[Dash] action, you
+      can increase your Speed by 10 feet until the start of your next turn. You
+      can do this a number of times equal to your Proficiency Bonus, and you
+      regain all expended uses when you finish a Long
+      Rest.</p><p><em><strong>Psionic Talent.</strong></em> You know the
+      @UUID[Compendium.ua2025-the-psion.spells.Item.uapsplFlingTelep]{Telekinetic
+      Fling} cantrip (included in this UA). You also always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav]{Thunderwave}
+      spell prepared. You can cast it once without a spell slot, and you regain
+      the ability to cast it in that way when you finish a Long Rest. You can
+      also cast it using any spell slots you have. When you cast these spells,
+      they require no Verbal components, and Intelligence, Wisdom, or Charisma
+      is your spellcasting ability for them (choose when you select this
+      feat).</p>
+    chat: ''
+  identifier: wild-talent-feat-psykineticist
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-ThePsion
+    page: '13'
+    custom: ''
+    license: ''
+  advancement:
+    - type: ItemGrant
+      title: Psionic Talent (Spell)
+      _id: nXrfLfDaGEbgrjow
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+    - type: ItemGrant
+      title: Psionic Talent (Cantrip)
+      _id: U0Yw9QPsoTT0mzao
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.ua2025-the-psion.spells.Item.uapsplFlingTelep
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Can’t Have Another Wild Talent Feat
+  type:
+    value: feat
+    subtype: wildTalentFeat
+effects:
+  - name: Psi Boost
+    img: icons/skills/movement/ball-spinning-blue.webp
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.AhZzUy44svaOlSce
+    transfer: false
+    _id: qW15gV5acL1xsQhZ
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '10'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!uapftPsykinetici.qW15gV5acL1xsQhZ'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759775137722
+  modifiedTime: 1759777260203
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapftPsykinetici'

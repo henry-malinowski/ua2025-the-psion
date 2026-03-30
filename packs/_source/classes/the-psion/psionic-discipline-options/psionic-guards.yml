@@ -1,0 +1,152 @@
+folder: hCqZignhKT3tUzdF
+name: Psionic Guards
+type: feat
+_id: psionPsionicGuar
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  activities:
+    HspQIQ7kgiAzn7CC:
+      type: utility
+      _id: HspQIQ7kgiAzn7CC
+      sort: 0
+      activation:
+        type: turnStart
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ua2025-the-psion.classes.Item.psionPower000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: 8EJb3qiPDlpnDkDn
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At the start of your turn, you can expend one Psionic Energy Die. Until
+      the start of your next turn, you have Immunity to the
+      &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened
+      apply=false] conditions and &amp;Reference[Advantage] on Intelligence
+      saving throws. If you are Charmed or Frightened when you use this
+      discipline, the condition ends on you.</p><p>When you use Psionic Guards,
+      you can also use a different Psionic Discipline this turn.</p>
+    chat: ''
+  identifier: psionic-guards
+  source:
+    revision: 2
+    rules: '2024'
+    book: UA2025-PsionUpdates
+    page: '5'
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 2
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: psionicDiscipline
+effects:
+  - name: Psionic Guards
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    origin: Compendium.world.psion-unearthed-arcana-2025.Item.49N76m6S5GYzTHFy
+    transfer: false
+    _id: 8EJb3qiPDlpnDkDn
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: charmed
+      - key: system.traits.ci.value
+        mode: 2
+        value: frightened
+      - key: system.abilities.int.save.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!psionPsionicGuar.8EJb3qiPDlpnDkDn'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759679774845
+  modifiedTime: 1759775147350
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!psionPsionicGuar'
